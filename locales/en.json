@@ -60,100 +60,100 @@
     "built_by": "Built by",
     "open_source_by": "Open source by"
   },
-  "HeroLanding": {
-    "make-photo-successful": "Make Your Photo Successful First!",
-    "fun_pro_for_every_occasion": "Fun & Pro for Every Occasion, Just Shoot at",
-    "headshots_fun": "HeadShots.fun",
-    "get_unique_portraits": "Get unique and professional level portraits just in <bold>10 seconds</bold> using the fastest AI at HeadShots.fun. Only <bold>1/20</bold> the price of a physical photo shoot in the studio.",
-    "get_your_headshots": "Get Your HeadShots"
-  },
-  "Testimonials": {
-    "label": "Testimonials",
-    "title": "What our clients are sharing.",
-    "subtitle": "Discover the glowing feedback from our delighted customers worldwide.",
-    "reviews": {
-      "1": "HeadShots.fun has completely transformed my workflow. The AI tools are not only efficient but also fun to use, making the headshot creation process both professional and enjoyable.",
-      "2": "HeadShots.fun made it super easy to create professional headshots for all my social media campaigns. ",
-      "3": "HeadShots.fun has significantly enhanced my brand work by providing professional-quality images that perfectly align with my brand's style.",
-      "4": "Creating headshots for my startup has never been this easy and enjoyable. HeadShots.fun delivers fantastic results while keeping the process light and fun.",
-      "5": "I love how HeadShots.fun balances creativity and professionalism. The flexibility of the AI tools allows me to design headshots that are both fun and perfectly suited to my creative projects.",
-      "6": "The efficiency and quality of HeadShots.fun are outstanding. I was able to create studio-quality headshots in seconds, and the process was surprisingly enjoyable.",
-      "7": "HeadShots.fun has been a valuable tool for our marketing campaigns. The AI-generated headshots are not only professional but also have a unique, fun element that makes our profiles stand out.",
-      "8": "The quality and speed of HeadShots.fun are impressive. I was able to create a professional headshot that looks like it was done in a studio, all within seconds."
+"HeroLanding": {
+  "make-photo-successful": "Let your mind shine with a life-changing skill!",
+  "fun_pro_for_every_occasion": "Learn logic programming from your mobile, anytime and anywhere",
+  "headshots_fun": "TruePowers.org",
+  "get_unique_portraits": "Master challenges like giant sudokus, logic puzzles, and smart planners in just <bold>10 minutes a day</bold>. Learn from your phone with the world’s most accessible educational app.",
+  "get_your_headshots": "Start your journey at TruePowers.org for only €1"
+},
+"Testimonials": {
+  "label": "Testimonials",
+  "title": "What our students are saying.",
+  "subtitle": "Discover how people from all over the world are transforming their lives by learning to program without programming.",
+  "reviews": {
+    "1": "TruePowers.org completely changed my way of thinking. Today, I solve giant sudokus and logic puzzles on my way to work. I never imagined enjoying programming this much.",
+    "2": "With just €1, I learned how to build a schedule planner for my academy. Now I use it daily, and even my colleagues ask me to automate their tasks.",
+    "3": "Thanks to TruePowers.org, I published my first sudoku book on Amazon. I’m already generating passive income from what I learned!",
+    "4": "I knew nothing about programming, but in less than a month, I was solving complex problems with logic. Best of all: I did it all from my phone on my commute.",
+    "5": "The TruePowers.org community is incredible. Every time I get stuck, a mentor or fellow student helps me. It’s like having a global support team.",
+    "6": "The 'program without programming' approach opened my eyes. Now I can communicate with computers using simple rules and solve problems that used to seem like magic.",
+    "7": "What I love most about TruePowers.org is that it’s not just a course. It’s a gateway to a new professional world. I'm already helping others as a mentor.",
+    "8": "I never thought learning logic could be so addictive. I no longer waste time—I invest it in myself. Thank you, TruePowers, for making this possible."
+  }
+},
+"InfoLanding": {
+  "title": "Empower your logical mind",
+  "description": "Discover how easy and fun it can be to learn logic programming from your mobile. At TruePowers.org, you train your mind to solve problems few can tackle.",
+  "list": {
+    "title": {
+      "1": "Learn effortlessly",
+      "2": "Solve with intelligence",
+      "3": "Stand out in the digital world"
+    },
+    "description": {
+      "1": "Enjoy a simple and practical process that lets you learn logic programming with no prior experience.",
+      "2": "Master challenges like impossible sudokus and automated planners using only your phone and simple rules.",
+      "3": "Develop a unique skill that sets you apart in the job market and brings you closer to financial freedom."
     }
-  },
-  "InfoLanding": {
-    "title": "Empower Your Creativity",
-    "description": "Unlock the fun and potential of your headshots with HeadShots.fun. Transform simple snapshots into captivating AI-enhanced images that reflect your true self.",
-    "list": {
-      "title": {
-        "1": "Create Effortlessly",
-        "2": "Personalize with AI",
-        "3": "Elevate Your Presence"
-      },
-      "description": {
-        "1": "Enjoy a seamless and intuitive process that makes creating the perfect headshot a breeze.",
-        "2": "Use advanced AI tools to customize every aspect of your headshot, ensuring it’s uniquely you.",
-        "3": "Whether for work or play, make sure your online presence stands out with headshots that combine fun with professionalism."
-      }
+  }
+},
+"Features": {
+  "title": "Explore our features",
+  "subtitle": "Awaken your logical power with tools designed to help you learn to program without complications.",
+  "features": {
+    "1": {
+      "title": "Effortless learning",
+      "description": "Learn logic programming step by step from your mobile. Our intuitive platform turns complex concepts into clear and practical exercises."
+    },
+    "2": {
+      "title": "AI for solving challenges",
+      "description": "Solve sudokus, puzzles, and planners in seconds thanks to the power of programmed logic. No prior experience needed—just curiosity."
+    },
+    "3": {
+      "title": "Real results",
+      "description": "From day one, you’ll see how your skills apply to real problems. Generate practical solutions that even impress professional programmers."
+    },
+    "4": {
+      "title": "Creativity powered by logic",
+      "description": "Turn your imagination into logical code. Your creativity is the only limit—from brain game books to automation apps."
+    },
+    "5": {
+      "title": "Learn by playing",
+      "description": "Become the hero of your learning journey by solving logic challenges like mental games. Every exercise is a new adventure."
+    },
+    "6": {
+      "title": "Immersive and fun experience",
+      "description": "Enjoy learning with a vibrant community, progressive challenges, and mental rewards that hook you from day one."
     }
-  },
-  "Features": {
-    "title": "Explore Our Features",
-    "subtitle": "Unleash your creativity with AI-powered tools designed to make every headshot uniquely yours.",
-    "features": {
-      "1": {
-        "title": "Effortless Creation",
-        "description": "Tailor your AI-generated headshots to fit your unique style. Our intuitive tools make it easy to adjust every detail."
-      },
-      "2": {
-        "title": "Personalized AI",
-        "description": "Generate stunning headshots in seconds. With the power of AI, you'll never have to wait for professional-quality images."
-      },
-      "3": {
-        "title": "Professional Quality",
-        "description": "Easily incorporate your headshots into your personal or professional profiles, with formats optimized for any platform."
-      },
-      "4": {
-        "title": "AI-Enhanced Creativity",
-        "description": "Your data is safe with us. We prioritize your privacy and ensure that your headshots are securely stored and shared."
-      },
-      "5": {
-        "title": "Fun and Engaging",
-        "description": "Leverage the power of AI to explore creative possibilities. Experiment with different styles and looks effortlessly."
-      },
-      "6": {
-        "title": "Fun and Engaging",
-        "description": "Enjoy a playful and engaging experience as you create headshots that are both fun and professional."
-      }
-    }
-  },
-  "NotFound": {
-    "pageNotFound": "Page not found.",
-    "backTo": "Back to",
-    "homepage": "homepage"
-  },
-  "StepsSection": {
-    "step": "Step",
-    "uploadYourSelfies": "Upload Your Selfies",
-    "uploadYourSelfiesDescription": "Upload 1-5 clear selfies or photos showcasing your face in various settings.",
-    "personalizeYourStyle": "Personalize Your Style",
-    "personalizeYourStyleDescription": "Select from diverse styles or create custom prompts for truly unique headshots.",
-    "instantAIMagic": "Instant AI Magic",
-    "instantAIMagicDescription": "Our advanced AI generates pro-quality headshots in seconds, ready for any use.",
-    "quickAndEasyProcess": "Quick & Easy Process",
-    "createFunAndProHeadshotsIn3SimpleSteps": "Create Fun & Pro Headshots in 3 Simple Steps",
-    "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "Experience the fastest AI technology at HeadShots.fun for stunning, personalized headshots perfect for every occasion."
-  },
-  "CTA": {
-    "title": "Make Me Look Awesome!",
-    "description": "Sick of your same old selfies? Our AI photo booth is here to spice things up! We've got you! No fancy gear needed – just a few clicks and boom! You're ready to wow the world!",
-    "button": "Get Started",
-    "cool_button": "Shoot Your Fun Headshots Now!",
-    "cool_title": "Instant Pro & Fun Headshots with AI Magic",
-    "cool_description": "Experience HeadShots.fun! Create stunning Pro & Fun portraits in seconds, no photographer needed."
-  },
-  "BentoGrid": {
+  }
+},
+"NotFound": {
+  "pageNotFound": "Page not found.",
+  "backTo": "Back to",
+  "homepage": "home"
+},
+"StepsSection": {
+  "step": "Step",
+  "uploadYourSelfies": "Access from your phone",
+  "uploadYourSelfiesDescription": "Connect from anywhere. All you need is your phone and the desire to learn.",
+  "personalizeYourStyle": "Explore your logic",
+  "personalizeYourStyleDescription": "Choose from exercises like sudokus, planners, logic puzzles, and more. You decide how to train your mind.",
+  "instantAIMagic": "Instant results",
+  "instantAIMagicDescription": "Watch your knowledge turn into real solutions from your very first exercises. Each click brings you closer to your superpower.",
+  "quickAndEasyProcess": "Simple and powerful process",
+  "createFunAndProHeadshotsIn3SimpleSteps": "Learn logic and programming in 3 easy steps, anytime and anywhere",
+  "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "Experience the power of logic and AI at TruePowers.org. Solve problems like a pro—even if it’s your first time."
+},
+"CTA": {
+  "title": "Activate your logical superpower!",
+  "description": "Tired of wasting time on your phone without learning anything useful? With TruePowers.org you can train your mind, solve genius-level challenges, and get closer to financial freedom—all in just a few clicks.",
+  "button": "Start",
+  "cool_button": "Start your mental training now!",
+  "cool_title": "Learn to program without programming from your phone",
+  "cool_description": "Experience TruePowers.org. Solve complex problems with simple rules and be amazed at what you're capable of."
+},
+"BentoGrid": {
     "customizable_prompts": "Customizable Prompts",
     "secure_by_design": "Secure by Design",
     "secure_by_design_description": "Your data is protected with top-notch security, giving you peace of mind.",
