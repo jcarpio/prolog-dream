@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -28,14 +29,16 @@ const exercises = [
     label: "🧩 1: Abuelo",
     facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
     query: "abuelo(X, luis).",
-    solution: "X = juan."
+    solution: "X = juan.",
+    video: "https://www.youtube.com/embed/RSv9aSsg2wc?si=ukWGqnC4zGEUGWkH&amp;start=1405"
   },
   {
     id: "2",
     label: "🧩 2: Natural",
     facts: `natural(1).\nnatural(N):-   natural(   ).`,
     query: "natural(5).",
-    solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`
+    solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`,
+    video: "https://www.youtube.com/embed/RSv9aSsg2wc?si=ukWGqnC4zGEUGWkH&amp;start=29"
   }
 ];
 
@@ -48,6 +51,7 @@ export default function CTA() {
   const [query, setQuery] = useState(exercises[0].query);
   const [output, setOutput] = useState("");
   const [solution, setSolution] = useState("");
+  const [video, setVideo] = useState(exercises[0].video);
   const [userCredits, setUserCredits] = useState<number | null>(null);
 
   useEffect(() => {
@@ -103,6 +107,7 @@ export default function CTA() {
       setQuery(selected.query);
       setSolution("");
       setOutput("");
+      setVideo(selected.video);
     }
   };
 
@@ -122,7 +127,20 @@ export default function CTA() {
           </CardHeader>
 
           <CardContent>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RSv9aSsg2wc?si=QDlsV8FUHpVDGhNp&amp;start=1405" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {video && (
+              <div className="mb-6 aspect-video w-full">
+                <iframe
+                  className="w-full h-full rounded"
+                  src={video}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  referrerPolicy="strict-origin-when-cross-origin"
+                ></iframe>
+              </div>
+            )}
+
             <div className="mb-4">
               <label className="block mb-2 font-bold">📚 Elige un ejercicio:</label>
               <select
