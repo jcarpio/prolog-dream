@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslations } from "next-intl";
+import { getUserCredits } from "@/lib/credits";
+import { useRouter } from "next/navigation";
 
 const motivationalPhrases = [
   "Take these seconds, breathe.",
@@ -26,7 +28,7 @@ const exercises = [
     facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
     query: "abuelo(X, luis).",
     solution: "X = juan.",
-    videoUrl: "https://youtu.be/RSv9aSsg2wc?si=LM8VfayaLacf0607"
+    videoUrl: "https://www.youtube.com/watch?v=RSv9aSsg2wc&t=12s"
   },
   {
     id: "2",
@@ -34,18 +36,24 @@ const exercises = [
     facts: `natural(1).\nnatural(N):-   natural(   ).`,
     query: "natural(5).",
     solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`,
-    videoUrl: "https://youtu.be/RSv9aSsg2wc?si=LM8VfayaLacf0607"
+    videoUrl: "https://www.youtube.com/watch?v=RSv9aSsg2wc&t=1017s"
   }
 ];
 
 export default function CTA() {
   const t = useTranslations("CTA");
+  const router = useRouter();
 
   const [facts, setFacts] = useState(exercises[0].facts);
   const [query, setQuery] = useState(exercises[0].query);
   const [output, setOutput] = useState("");
   const [solution, setSolution] = useState("");
   const [videoUrl, setVideoUrl] = useState(exercises[0].videoUrl);
+  const [userCredits, setUserCredits] = useState<number | null>(null);
+
+  useEffect(() => {
+    getUserCredits().then(setUserCredits).catch(() => setUserCredits(null));
+  }, []);
 
   useEffect(() => {
     if (output === "⏳ Ejecutando...") {
@@ -58,8 +66,19 @@ export default function CTA() {
   }, [output]);
 
   const handleRun = async () => {
-    setOutput("⏳ Ejecutando...");
     setSolution("");
+
+    if (userCredits === null) {
+      router.push("/login");
+      return;
+    }
+
+    if (userCredits <= 0) {
+      router.push("/pricing");
+      return;
+    }
+
+    setOutput("⏳ Ejecutando...");
 
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 15000);
@@ -112,6 +131,22 @@ export default function CTA() {
 
           <CardContent>
 
+            {/* Video explicativo */}
+            {videoUrl && (
+              <div className="mb-6">
+                <div className="aspect-video w-full rounded overflow-hidden border">
+                  <iframe
+                    width="100%"
+                    height="315"
+                    src={videoUrl}
+                    title="YouTube video"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            )}
+
             <div className="mb-4">
               <label className="block mb-2 font-bold">📚 Elige un ejercicio:</label>
               <select
@@ -161,21 +196,6 @@ export default function CTA() {
                   {solution}
                 </pre>
               </>
-            )}
-
-            {videoUrl && (
-              <div className="mt-8">
-                <label className="block mb-2 font-bold">🎥 Video explicativo:</label>
-                <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
-                  <iframe
-                    className="absolute top-0 left-0 w-full h-full rounded-lg"
-                    src={videoUrl}
-                    title="Video explicativo"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-              </div>
             )}
           </CardContent>
         </Card>
