@@ -26,7 +26,7 @@ const exercises = [
     facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
     query: "abuelo(X, luis).",
     solution: "X = juan.",
-    videoUrl: "https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_1"
+    videoUrl: "https://youtu.be/RSv9aSsg2wc?si=LM8VfayaLacf0607"
   },
   {
     id: "2",
@@ -34,7 +34,7 @@ const exercises = [
     facts: `natural(1).\nnatural(N):-   natural(   ).`,
     query: "natural(5).",
     solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`,
-    videoUrl: "https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2"
+    videoUrl: "https://youtu.be/RSv9aSsg2wc?si=LM8VfayaLacf0607"
   }
 ];
 
