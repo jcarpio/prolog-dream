@@ -61,72 +61,72 @@
     "open_source_by": "Código abierto por"
 },
 "HeroLanding": {
-    "make-photo-successful": "¡Haz que tu foto sea un éxito desde el principio!",
-    "fun_pro_for_every_occasion": "Diversión y Profesionalismo para Cada Ocasión, Solo Captura en",
-    "headshots_fun": "TruePowers.org",
-    "get_unique_portraits": "Obtén retratos únicos y de nivel profesional en solo <bold>10 segundos</bold> utilizando la IA más rápida en TruePowers.org. Solo <bold>1/20</bold> del precio de una sesión de fotos en un estudio físico.",
-    "get_your_headshots": "Obtén tus DreamBez HeadShots"
+  "make-photo-successful": "¡Haz que tu mente brille con una habilidad que transforma vidas!",
+  "fun_pro_for_every_occasion": "Aprende programación lógica desde el móvil, en cualquier lugar y momento",
+  "headshots_fun": "TruePowers.org",
+  "get_unique_portraits": "Domina desafíos como sudokus gigantes, puzzles lógicos y planificación automática en solo <bold>10 minutos al día</bold>. Aprende desde tu móvil con la app educativa más accesible del mundo.",
+  "get_your_headshots": "Empieza tu viaje en TruePowers.org por solo 1€"
 },
 "Testimonials": {
-    "label": "Testimonios",
-    "title": "Lo que comparten nuestros clientes.",
-    "subtitle": "Descubre los comentarios entusiastas de nuestros clientes satisfechos en todo el mundo.",
-    "reviews": {
-      "1": "TruePowers.org ha transformado completamente mi flujo de trabajo. Las herramientas de IA no solo son eficientes, sino también divertidas de usar, haciendo que el proceso de creación de headshots sea profesional y agradable.",
-      "2": "TruePowers.org hizo que fuera súper fácil crear headshots profesionales para todas mis campañas en redes sociales.",
-      "3": "TruePowers.org ha mejorado significativamente mi trabajo de marca al proporcionar imágenes de calidad profesional que se alinean perfectamente con el estilo de mi marca.",
-      "4": "Crear headshots para mi startup nunca ha sido tan fácil y divertido. TruePowers.org ofrece resultados fantásticos mientras mantiene el proceso ligero y entretenido.",
-      "5": "Me encanta cómo TruePowers.org equilibra la creatividad y el profesionalismo. La flexibilidad de las herramientas de IA me permite diseñar headshots que son tanto divertidos como perfectamente adecuados para mis proyectos creativos.",
-      "6": "La eficiencia y calidad de TruePowers.org son excepcionales. Pude crear headshots de calidad de estudio en segundos, y el proceso fue sorprendentemente entretenido.",
-      "7": "TruePowers.org ha sido una herramienta valiosa para nuestras campañas de marketing. Los headshots generados por IA no solo son profesionales, sino que también tienen un elemento único y divertido que hace que nuestros perfiles destaquen.",
-      "8": "La calidad y velocidad de TruePowers.org son impresionantes. Pude crear un headshot profesional que parece haber sido tomado en un estudio, todo en cuestión de segundos."
-    }
+  "label": "Testimonios",
+  "title": "Lo que comparten nuestros estudiantes.",
+  "subtitle": "Descubre cómo personas de todo el mundo están transformando su vida aprendiendo a programar sin programar.",
+  "reviews": {
+    "1": "TruePowers.org ha cambiado por completo mi forma de pensar. Hoy resuelvo sudokus gigantes y puzzles lógicos mientras voy al trabajo. Nunca imaginé disfrutar tanto aprendiendo programación.",
+    "2": "Con solo 1€, aprendí a construir un planificador de horarios para mi academia. Ahora no solo lo uso yo, sino que mis compañeros me piden ayuda para automatizar tareas.",
+    "3": "Gracias a TruePowers.org, publiqué mi primer libro de sudokus en Amazon. ¡Ya estoy generando ingresos pasivos con lo que aprendí!",
+    "4": "No sabía nada de programación, pero en menos de un mes ya resolvía problemas complejos con lógica. Lo mejor: solo usé mi móvil y mis trayectos en metro.",
+    "5": "La comunidad de TruePowers.org es brutal. Cada vez que me bloqueo, un mentor o estudiante me ayuda. Es como tener un equipo mundial de apoyo.",
+    "6": "El enfoque de 'programar sin programar' me abrió los ojos. Ahora puedo comunicarme con el ordenador usando reglas simples y resolver cosas que antes parecían magia.",
+    "7": "Lo mejor de TruePowers.org es que no es solo un curso. Es una puerta a un nuevo mundo profesional. Ya estoy ayudando a otros como mentor en la plataforma.",
+    "8": "Nunca imaginé que aprender lógica podría ser tan adictivo. Ya no paso tiempo muerto: lo invierto en mí. Gracias, TruePowers, por hacer esto posible."
+  }
 },
 "InfoLanding": {
-    "title": "Potencia tu creatividad",
-    "description": "Descubre la diversión y el potencial de tus headshots con TruePowers.org. Transforma simples fotos en imágenes mejoradas con IA que reflejan tu verdadero yo.",
-    "list": {
-      "title": {
-        "1": "Crea sin esfuerzo",
-        "2": "Personaliza con IA",
-        "3": "Eleva tu presencia"
-      },
-      "description": {
-        "1": "Disfruta de un proceso fluido e intuitivo que hace que crear el headshot perfecto sea un juego de niños.",
-        "2": "Utiliza herramientas avanzadas de IA para personalizar cada aspecto de tu headshot, asegurándote de que sea único.",
-        "3": "Ya sea para el trabajo o el ocio, asegúrate de que tu presencia en línea destaque con headshots que combinan diversión y profesionalismo."
-      }
+  "title": "Potencia tu mente lógica",
+  "description": "Descubre lo fácil y divertido que puede ser aprender programación lógica desde tu móvil. Con TruePowers.org, entrenas tu mente para resolver problemas que muy pocos saben afrontar.",
+  "list": {
+    "title": {
+      "1": "Aprende sin complicaciones",
+      "2": "Resuelve con inteligencia",
+      "3": "Destaca en el mundo digital"
+    },
+    "description": {
+      "1": "Disfruta de un proceso práctico y sencillo que te permite aprender programación lógica sin conocimientos previos.",
+      "2": "Domina retos como sudokus imposibles y planificadores automatizados utilizando solo tu móvil y reglas simples.",
+      "3": "Desarrolla una habilidad única que te diferencia en el mercado laboral y te acerca a la libertad financiera."
     }
+  }
 },
 "Features": {
-    "title": "Explora nuestras características",
-    "subtitle": "Libera tu creatividad con herramientas potenciadas por IA diseñadas para hacer que cada headshot sea único.",
-    "features": {
-      "1": {
-        "title": "Creación sin esfuerzo",
-        "description": "Adapta tus headshots generados por IA para que se ajusten a tu estilo único. Nuestras herramientas intuitivas facilitan la personalización de cada detalle."
-      },
-      "2": {
-        "title": "IA personalizada",
-        "description": "Genera impresionantes headshots en segundos. Con el poder de la IA, nunca tendrás que esperar por imágenes de calidad profesional."
-      },
-      "3": {
-        "title": "Calidad profesional",
-        "description": "Incorpora fácilmente tus headshots en tus perfiles personales o profesionales, con formatos optimizados para cualquier plataforma."
-      },
-      "4": {
-        "title": "Creatividad mejorada con IA",
-        "description": "Tus datos están seguros con nosotros. Priorizamos tu privacidad y garantizamos que tus headshots se almacenen y compartan de manera segura."
-      },
-      "5": {
-        "title": "Divertido y envolvente",
-        "description": "Aprovecha el poder de la IA para explorar posibilidades creativas. Experimenta con diferentes estilos y looks sin esfuerzo."
-      },
-      "6": {
-        "title": "Divertido y envolvente",
-        "description": "Disfruta de una experiencia divertida y atractiva mientras creas headshots que son tanto profesionales como entretenidos."
-      }
+  "title": "Explora nuestras funcionalidades",
+  "subtitle": "Despierta tu poder lógico con herramientas diseñadas para que aprendas a programar sin complicaciones.",
+  "features": {
+    "1": {
+      "title": "Aprendizaje sin esfuerzo",
+      "description": "Aprende programación lógica paso a paso desde tu móvil. Nuestra plataforma intuitiva convierte conceptos complejos en ejercicios claros y prácticos."
+    },
+    "2": {
+      "title": "IA para resolver retos",
+      "description": "Resuelve sudokus, puzzles y planificadores en segundos gracias al poder de la lógica programada. No necesitas experiencia previa, solo curiosidad."
+    },
+    "3": {
+      "title": "Resultados reales",
+      "description": "Desde el primer día verás cómo tus habilidades se aplican en problemas reales. Genera soluciones prácticas que impresionan incluso a programadores profesionales."
+    },
+    "4": {
+      "title": "Creatividad potenciada por lógica",
+      "description": "Transforma tu imaginación en código lógico. La única limitación es tu creatividad: desde libros de juegos mentales hasta apps de automatización."
+    },
+    "5": {
+      "title": "Aprende jugando",
+      "description": "Conviértete en protagonista de tu aprendizaje resolviendo retos lógicos como si fueran juegos mentales. Cada ejercicio es una nueva aventura."
+    },
+    "6": {
+      "title": "Experiencia envolvente y divertida",
+      "description": "Disfruta aprendiendo con una comunidad vibrante, desafíos progresivos y recompensas mentales que te engancharán desde el primer día."
     }
+  }
 },
  "NotFound": {
     "pageNotFound": "Página no encontrada.",
@@ -134,39 +134,39 @@
     "homepage": "inicio"
 },
 "StepsSection": {
-    "step": "Paso",
-    "uploadYourSelfies": "Sube tus selfies",
-    "uploadYourSelfiesDescription": "Sube de 1 a 5 selfies claras o fotos que muestren tu rostro en diferentes entornos.",
-    "personalizeYourStyle": "Personaliza tu estilo",
-    "personalizeYourStyleDescription": "Selecciona entre diversos estilos o crea indicaciones personalizadas para obtener headshots únicos.",
-    "instantAIMagic": "Magia instantánea con IA",
-    "instantAIMagicDescription": "Nuestra avanzada IA genera headshots de calidad profesional en segundos, listos para cualquier uso.",
-    "quickAndEasyProcess": "Proceso rápido y sencillo",
-    "createFunAndProHeadshotsIn3SimpleSteps": "Crea headshots divertidos y profesionales en 3 sencillos pasos",
-    "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "Experimenta la tecnología de IA más rápida en TruePowers.org para obtener headshots personalizados y sorprendentes, perfectos para cualquier ocasión."
+  "step": "Paso",
+  "uploadYourSelfies": "Accede desde tu móvil",
+  "uploadYourSelfiesDescription": "Conéctate desde cualquier lugar. Solo necesitas tu teléfono y ganas de aprender.",
+  "personalizeYourStyle": "Explora tu lógica",
+  "personalizeYourStyleDescription": "Elige entre ejercicios como sudokus, planificadores, puzzles lógicos y mucho más. Tú decides cómo quieres entrenar tu mente.",
+  "instantAIMagic": "Resultados inmediatos",
+  "instantAIMagicDescription": "Verás cómo tu conocimiento se convierte en soluciones reales desde los primeros ejercicios. Cada clic te acerca a tu superpoder.",
+  "quickAndEasyProcess": "Proceso simple y poderoso",
+  "createFunAndProHeadshotsIn3SimpleSteps": "Aprende lógica y programación en 3 pasos sencillos y desde cualquier lugar",
+  "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "Experimenta el poder de la lógica y la IA en TruePowers.org. Resuelve problemas como un profesional, incluso si es tu primera vez."
 },
 "CTA": {
-    "title": "¡Haz que luzca increíble!",
-    "description": "¿Cansado de tus mismas selfies de siempre? ¡Nuestra cabina de fotos con IA está aquí para cambiar eso! No necesitas equipo sofisticado, solo unos pocos clics y ¡boom! Estás listo para impresionar al mundo.",
-    "button": "Empezar",
-    "cool_button": "¡Toma tus headshots divertidos ahora!",
-    "cool_title": "Headshots instantáneos y profesionales con la magia de la IA",
-    "cool_description": "Experimenta TruePowers.org. Crea retratos impresionantes en segundos, sin necesidad de fotógrafo."
+  "title": "¡Activa tu superpoder lógico!",
+  "description": "¿Cansado de pasar el tiempo en el móvil sin aprender nada útil? Con TruePowers.org puedes transformar tu mente, resolver retos como un genio y acercarte a la libertad financiera. Todo con solo unos clics.",
+  "button": "Empezar",
+  "cool_button": "¡Empieza tu entrenamiento mental ahora!",
+  "cool_title": "Aprende a programar sin programar desde tu móvil",
+  "cool_description": "Experimenta TruePowers.org. Resuelve problemas complejos con reglas simples y sorpréndete de lo que eres capaz de lograr."
 },
 "BentoGrid": {
-    "customizable_prompts": "Indicaciones personalizables",
-    "secure_by_design": "Seguridad por diseño",
-    "secure_by_design_description": "Tus datos están protegidos con la mejor seguridad, brindándote tranquilidad.",
-    "usually_in_10_seconds": "Normalmente en 10 segundos",
-    "lightning_fast_results": "Resultados ultrarrápidos",
-    "lightning_fast_results_description": "Obtén headshots generados por IA en 10 segundos.",
-    "professional_quality": "Calidad profesional",
-    "professional_quality_description": "Headshots generados con IA en TruePowers.org que rivalizan con la fotografía profesional, perfectos para cualquier ocasión y propósito.",
-    "effortlessly_fun": "Divertido y sin esfuerzo",
-    "effortlessly_fun_description": "Disfruta de un proceso fluido y entretenido, desde la captura hasta la recepción de tus headshots. Tan divertido como profesional.",
-    "superhero": "Superhéroe",
-    "witch": "Bruja",
-    "clay": "Arcilla"
+  "customizable_prompts": "Retos personalizables",
+  "secure_by_design": "Seguridad por diseño",
+  "secure_by_design_description": "Tu progreso y tus datos están protegidos con tecnología segura para que solo te enfoques en aprender.",
+  "usually_in_10_seconds": "Resultados en segundos",
+  "lightning_fast_results": "Resolución ultrarrápida",
+  "lightning_fast_results_description": "Obtén soluciones a ejercicios complejos en menos de 10 segundos gracias a la lógica automatizada.",
+  "professional_quality": "Nivel profesional",
+  "professional_quality_description": "Las habilidades que adquieres en TruePowers.org rivalizan con las de un programador profesional. Todo desde tu móvil.",
+  "effortlessly_fun": "Aprendizaje divertido",
+  "effortlessly_fun_description": "El proceso es tan entretenido como transformador. Resolverás retos reales sin darte cuenta de que estás programando.",
+  "superhero": "Genio lógico",
+  "witch": "Mago de reglas",
+  "clay": "Creador mental"
 },
 "NavBar": {
     "dashboard": "Panel de control",
@@ -176,95 +176,95 @@
     "pricing": "Precios"
 },
 "HeadshotStylePage": {
-    "label": "Estilos de TruePowers.org",
-    "title": "Estilos de headshot versátiles para cualquier ocasión",
-    "subtitle": "Descubre nuestra diversa colección de estilos de headshots generados por IA. Rápido, fácil y personalizado solo para ti.",
-    "headshot": {
-      "alt": "Retrato generado por IA: {name}",
-      "hot": "POPULAR",
-      "new": "NUEVO"
-    }
+  "label": "Estilos de TruePowers.org",
+  "title": "Retos lógicos para cada mente curiosa",
+  "subtitle": "Explora nuestra colección de desafíos: desde sudokus extremos hasta planificadores inteligentes. Todo rápido, fácil y diseñado para expandir tu poder mental.",
+  "headshot": {
+    "alt": "Reto lógico generado por IA: {name}",
+    "hot": "POPULAR",
+    "new": "NUEVO"
+  }
 },
 "PricingPage": {
-    "metadata": {
-      "title": "Precios – {siteTitle}",
-      "description": "Explora nuestros precios de headshots."
+  "metadata": {
+    "title": "Precios – {siteTitle}",
+    "description": "Explora nuestros precios de entrenamiento lógico con TruePowers.org."
+  },
+  "label": "Precios",
+  "title": "Precios simples y accesibles",
+  "subtitle": "Elige el plan que mejor se adapte a tu ritmo de aprendizaje. Sin tarifas ocultas, sin sorpresas.",
+  "trial_section_description": "Disfruta de una prueba de 7 días sin riesgo. Si no usas tus créditos, te devolvemos el dinero.",
+  "1_credit_1_headshot": "1 Crédito = 1 Ejercicio avanzado",
+  "processing": "Procesando...",
+  "purchase": "Comprar",
+  "most_popular": "Más popular",
+  "package": "Paquete",
+  "price": "Precio",
+  "price_per": "Precio por",
+  "credits": "Créditos",
+  "plans": {
+    "1": {
+      "description": "Iniciador lógico: Tu primer paso hacia el pensamiento computacional",
+      "features": "1000 Créditos"
     },
-    "label": "Precios",
-    "title": "Precios simples y transparentes",
-    "subtitle": "Elige el plan perfecto para ti. Sin tarifas ocultas, sin sorpresas.",
-    "trial_section_description": "Disfruta de una prueba de 7 días sin riesgos en todos los planes. Reembolso completo si no se usan créditos.",
-    "1_credit_1_headshot": "1 Crédito = 1 Headshot",
-    "processing": "Procesando...",
-    "purchase": "Comprar",
-    "most_popular": "Más popular",
-    "package": "Paquete",
-    "price": "Precio",
-    "price_per": "Precio por",
-    "credits": "Créditos",
-    "plans": {
-      "1": {
-        "description": "Iniciador de selfies: Tu primer paso hacia el glamour con IA",
-        "features": "2 Créditos"
-      },
-      "2": {
-        "description": "Encanto casual: Dale un toque especial a tus redes sociales",
-        "features": "10 Créditos"
-      },
-      "3": {
-        "description": "Superestrella de fotos: Desata tu modelo interior",
-        "features": "25 Créditos"
-      },
-      "4": {
-        "description": "Retrato profesional: Eleva tu presencia en línea",
-        "features": "50 Créditos"
-      },
-      "5": {
-        "description": "Transformador de equipo: Haz brillar a todo tu grupo",
-        "features": "100 Créditos"
-      },
-      "6": {
-        "description": "Paraíso de headshots: Disfruta de diversión ilimitada",
-        "features": "200 Créditos"
-      }
+    "2": {
+      "description": "Retador casual: Perfecto para aprender en el metro o durante una pausa",
+      "features": "10000 Créditos"
+    },
+    "3": {
+      "description": "Entrenamiento intensivo: Domina puzzles y planificadores complejos",
+      "features": "100000 Créditos"
+    },
+    "4": {
+      "description": "Nivel profesional: Prepárate para crear soluciones automatizadas reales",
+      "features": "500000 Créditos"
+    },
+    "5": {
+      "description": "Pack mentor: Entrena mientras ayudas a otros en la comunidad",
+      "features": "1000000 Créditos"
+    },
+    "6": {
+      "description": "Modo infinito: Explora, aprende y comparte sin límites",
+      "features": "2000000 Créditos"
     }
+  }
 },
 "PricingPageFAQ": {
-    "title": "Preguntas frecuentes",
-    "label": "Precios",
-    "subtitle": "Preguntas frecuentes sobre nuestros precios.",
-    "qa": [
-      [
-        "¿Qué es TruePowers.org?",
-        "TruePowers.org es una plataforma impulsada por IA que te permite crear headshots únicos e impresionantes de manera rápida y sencilla, personalizados para cada ocasión."
-      ],
-      [
-        "¿Cómo funciona el sistema de créditos?",
-        "1 Crédito = 1 Headshot. Ofrecemos varios paquetes de créditos para adaptarnos a diferentes necesidades. Puedes comprar créditos que se pueden utilizar para generar headshots con IA. Cuantos más créditos compres, mejor será el valor."
-      ],
-      [
-        "¿Cuáles son los precios de los paquetes de créditos?",
-        "Nuestros precios comienzan desde $2.99, perfecto para probar nuestro servicio. También ofrecemos paquetes más grandes, siendo la opción más popular el Plan Snapshot Superstar de $19.9, ideal para usuarios frecuentes."
-      ],
-      [
-        "¿Existen características para personalizar mis headshots?",
-        "¡Sí! Ofrecemos herramientas potenciadas por IA diseñadas para hacer que cada headshot sea único. Puedes explorar diversas funciones para desatar tu creatividad y personalizar tus headshots para diferentes ocasiones."
-      ],
-      [
-        "¿Qué tan rápida es la tecnología de IA utilizada para generar headshots?",
-        "Utilizamos la tecnología de IA más rápida disponible para garantizar una generación rápida y eficiente de headshots, generalmente en 10 segundos. Nuestro objetivo es proporcionarte resultados sorprendentes en el menor tiempo posible."
-      ],
-      [
-        "¿Qué tipo de fotos debo subir a la plataforma?",
-        "Recomendamos subir múltiples fotos frontales para garantizar que tu foto de perfil sea lo más precisa posible. Estas fotos deben mostrar una vista clara y sin obstrucciones de tu rostro. Asegúrate de que sean imágenes nítidas y de alta calidad, sin incluir otras personas o animales."
-      ],
-      [
-        "¿Puedo usar la misma foto para múltiples headshots?",
-        "Sí, puedes usar la misma foto para múltiples headshots. Nuestra tecnología de IA permite múltiples resultados a partir de una sola imagen, por lo que puedes crear diferentes estilos y apariencias con la misma foto."
-      ]
+  "title": "Preguntas frecuentes",
+  "label": "Precios",
+  "subtitle": "Preguntas frecuentes sobre nuestra plataforma y sistema de créditos.",
+  "qa": [
+    [
+      "¿Qué es TruePowers.org?",
+      "TruePowers.org es una plataforma educativa que te enseña a programar sin programar. Aprende lógica computacional desde tu móvil resolviendo retos como sudokus gigantes, puzzles lógicos, planificadores de horarios y mucho más."
+    ],
+    [
+      "¿Cómo funciona el sistema de créditos?",
+      "1 Crédito = 1 Ejercicio avanzado. Al adquirir créditos, desbloqueas el acceso a ejercicios prácticos dentro de la plataforma. Con solo 1€ obtienes suficientes créditos para completar el curso entero."
+    ],
+    [
+      "¿Cuáles son los precios de los paquetes de créditos?",
+      "Tenemos planes desde 1€, accesibles para cualquier persona del mundo. Cuantos más créditos compres, más ejercicios podrás practicar. Hay paquetes diseñados para todos los niveles, desde principiante hasta mentor."
+    ],
+    [
+      "¿Puedo personalizar los retos que quiero resolver?",
+      "¡Por supuesto! Puedes elegir entre una gran variedad de retos: desde sudokus clásicos, híper y Samurai, hasta puzzles complejos y planificadores inteligentes. Además, puedes adaptar tu experiencia según tus intereses."
+    ],
+    [
+      "¿Qué tan rápida es la tecnología usada para resolver los ejercicios?",
+      "TruePowers.org utiliza lógica computacional optimizada para darte resultados en segundos. Solo introduces tus reglas y pulsas 'Ejecutar'. El sistema hace el resto, ¡más rápido que muchos programadores!"
+    ],
+    [
+      "¿Necesito experiencia previa en programación?",
+      "No. TruePowers.org está diseñado para principiantes absolutos. Todo está guiado paso a paso, con vídeos explicativos y comunidad de apoyo en exercism.org y dev.to."
+    ],
+    [
+      "¿Puedo repetir un mismo ejercicio varias veces?",
+      "Sí. Puedes practicar el mismo reto con distintos enfoques, aprender de tus errores y mejorar tu pensamiento lógico. Cada ejecución refuerza tu comprensión del sistema."
     ]
+  ]
 },
- "BlogPage": {
+"BlogPage": {
     "blog": "Blog",
     "description": "Últimas noticias y actualizaciones de TruePowers.org",
     "categories": "Categorías",
