@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslations } from "next-intl";
-import { getUserCredits } from "@/lib/credits";
 import { useRouter } from "next/navigation";
+import { getUserCredits } from "@/lib/credits";
 
 const motivationalPhrases = [
   "Take these seconds, breathe.",
@@ -18,7 +18,7 @@ const motivationalPhrases = [
   "Everything is perfect now.",
   "You are deeply supported.",
   "Peace is within you.",
-  "The universe holds you.",
+  "The universe holds you."
 ];
 
 const exercises = [
@@ -28,7 +28,7 @@ const exercises = [
     facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
     query: "abuelo(X, luis).",
     solution: "X = juan.",
-    videoUrl: "https://www.youtube.com/watch?v=RSv9aSsg2wc&t=12s"
+    video: "https://www.youtube.com/embed/RSv9aSsg2wc?si=QDlsV8FUHpVDGhNp"
   },
   {
     id: "2",
@@ -36,7 +36,7 @@ const exercises = [
     facts: `natural(1).\nnatural(N):-   natural(   ).`,
     query: "natural(5).",
     solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`,
-    videoUrl: "https://www.youtube.com/watch?v=RSv9aSsg2wc&t=1017s"
+    video: "https://www.youtube.com/embed/RSv9aSsg2wc?si=QDlsV8FUHpVDGhNp"
   }
 ];
 
@@ -48,12 +48,7 @@ export default function CTA() {
   const [query, setQuery] = useState(exercises[0].query);
   const [output, setOutput] = useState("");
   const [solution, setSolution] = useState("");
-  const [videoUrl, setVideoUrl] = useState(exercises[0].videoUrl);
-  const [userCredits, setUserCredits] = useState<number | null>(null);
-
-  useEffect(() => {
-    getUserCredits().then(setUserCredits).catch(() => setUserCredits(null));
-  }, []);
+  const [videoUrl, setVideoUrl] = useState(exercises[0].video);
 
   useEffect(() => {
     if (output === "⏳ Ejecutando...") {
@@ -66,19 +61,18 @@ export default function CTA() {
   }, [output]);
 
   const handleRun = async () => {
+    setOutput("⏳ Ejecutando...");
     setSolution("");
 
+    const userCredits = await getUserCredits();
     if (userCredits === null) {
-      router.push("/login");
+      router.push("/auth/login");
       return;
     }
-
     if (userCredits <= 0) {
       router.push("/pricing");
       return;
     }
-
-    setOutput("⏳ Ejecutando...");
 
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 15000);
@@ -110,7 +104,7 @@ export default function CTA() {
       setQuery(selected.query);
       setSolution("");
       setOutput("");
-      setVideoUrl(selected.videoUrl);
+      setVideoUrl(selected.video);
     }
   };
 
@@ -118,6 +112,10 @@ export default function CTA() {
     const selected = exercises.find((ex) => ex.query === query && ex.facts === facts);
     setSolution(selected?.solution || "No solution available.");
   };
+
+  const embedUrl = videoUrl?.includes("youtube.com/watch")
+    ? videoUrl.replace("watch?v=", "embed/")
+    : "";
 
   return (
     <section className="py-16 text-muted-foreground">
@@ -131,18 +129,21 @@ export default function CTA() {
 
           <CardContent>
 
-            {/* Video explicativo */}
-            {videoUrl && (
+            {embedUrl && (
               <div className="mb-6">
-                <div className="aspect-video w-full rounded overflow-hidden border">
+                <div className="aspect-video w-full max-w-3xl mx-auto">
                   <iframe
-                    width="100%"
-                    height="315"
-                    src={videoUrl}
-                    title="YouTube video"
+                    className="rounded-md w-full h-full"
+                    src={embedUrl}
+                    title="Exercise Video"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
-                  />
+                  ></iframe>
+                </div>
+                <div className="text-center mt-2">
+                  <a href={videoUrl} target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+                    🔗 {t("Watch on YouTube")}
+                  </a>
                 </div>
               </div>
             )}
