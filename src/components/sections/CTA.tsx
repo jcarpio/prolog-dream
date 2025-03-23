@@ -122,6 +122,7 @@ export default function CTA() {
           </CardHeader>
 
           <CardContent>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RSv9aSsg2wc?si=QDlsV8FUHpVDGhNp&amp;start=1405" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div className="mb-4">
               <label className="block mb-2 font-bold">📚 Elige un ejercicio:</label>
               <select
