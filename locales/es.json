@@ -1,0 +1,397 @@
+{
+  "auth": {
+    "sign_in": "Sign In",
+    "login": "Login",
+    "register": "Register",
+    "email_login_text": "You can use your email to",
+    "sign_in_with_google": "Sign In with Google",
+    "sign_in_with_linkedin": "Sign In with LinkedIn",
+    "back": "Back",
+    "welcome_back": "Welcome back",
+    "use_email_to_sign_in": "Use email to sign in to your HeadShots.fun account",
+    "don't_have_an_account": "Don't have an account?",
+    "sign_up": "Sign Up",
+    "email": "Email",
+    "sign_up_with_email": "Sign Up with Email",
+    "sign_in_with_email": "Sign In with Email",
+    "or": "Or",
+    "continue_with_google": "Continue with Google",
+    "continue_with_linkedin": "Continue with LinkedIn",
+    "create_an_account": "Create an account",
+    "enter_your_email_below_to_create_your_account": "Enter your email below to create your account",
+    "by_clicking_continue_you_agree_to_our": "By clicking continue, you agree to our",
+    "terms_of_service": "Terms of Service",
+    "privacy_policy": "Privacy Policy"
+  },
+ "dashboard": {
+    "menu": "MENÚ",
+    "options": "OPCIONES",
+    "admin": "ADMIN",
+    "dashboard": "Panel de Control",
+    "billing": "Facturación",
+    "settings": "Configuración",
+    "homepage": "Página Principal",
+    "mail_support": "Soporte por Correo",
+    "admin_panel": "Panel de Administración",
+    "users": "Usuarios",
+    "studios": "Estudios",
+    "predictions": "Predicciones",
+    "orders": "Pedidos",
+    "log_out": "Cerrar sesión"
+},
+"sitefooter": {
+    "sections": {
+      "Company": "Empresa",
+      "Ullr AI Products": "Productos de Ullr AI",
+      "Resources": "Recursos"
+    },
+    "links": {
+      "About": "Sobre nosotros",
+      "Terms": "Términos",
+      "Privacy": "Privacidad",
+      "PixMiller": "PixMiller",
+      "HeadShots fun": "DreamBez.com",
+      "Ullr AI Lab": "Laboratorio Ullr AI",
+      "Pricing": "Precios",
+      "Styles": "Estilos",
+      "Blog": "Blog"
+    },
+    "copyright": "Copyright © 2024. Todos los derechos reservados.",
+    "built_by": "Desarrollado por",
+    "open_source_by": "Código abierto por"
+},
+"HeroLanding": {
+    "make-photo-successful": "¡Haz que tu foto sea un éxito desde el principio!",
+    "fun_pro_for_every_occasion": "Diversión y Profesionalismo para Cada Ocasión, Solo Captura en",
+    "headshots_fun": "DreamBez.com",
+    "get_unique_portraits": "Obtén retratos únicos y de nivel profesional en solo <bold>10 segundos</bold> utilizando la IA más rápida en DreamBez.com. Solo <bold>1/20</bold> del precio de una sesión de fotos en un estudio físico.",
+    "get_your_headshots": "Obtén tus DreamBez HeadShots"
+},
+"Testimonials": {
+    "label": "Testimonios",
+    "title": "Lo que comparten nuestros clientes.",
+    "subtitle": "Descubre los comentarios entusiastas de nuestros clientes satisfechos en todo el mundo.",
+    "reviews": {
+      "1": "DreamBez.com ha transformado completamente mi flujo de trabajo. Las herramientas de IA no solo son eficientes, sino también divertidas de usar, haciendo que el proceso de creación de headshots sea profesional y agradable.",
+      "2": "DreamBez.com hizo que fuera súper fácil crear headshots profesionales para todas mis campañas en redes sociales.",
+      "3": "DreamBez.com ha mejorado significativamente mi trabajo de marca al proporcionar imágenes de calidad profesional que se alinean perfectamente con el estilo de mi marca.",
+      "4": "Crear headshots para mi startup nunca ha sido tan fácil y divertido. DreamBez.com ofrece resultados fantásticos mientras mantiene el proceso ligero y entretenido.",
+      "5": "Me encanta cómo DreamBez.com equilibra la creatividad y el profesionalismo. La flexibilidad de las herramientas de IA me permite diseñar headshots que son tanto divertidos como perfectamente adecuados para mis proyectos creativos.",
+      "6": "La eficiencia y calidad de DreamBez.com son excepcionales. Pude crear headshots de calidad de estudio en segundos, y el proceso fue sorprendentemente entretenido.",
+      "7": "DreamBez.com ha sido una herramienta valiosa para nuestras campañas de marketing. Los headshots generados por IA no solo son profesionales, sino que también tienen un elemento único y divertido que hace que nuestros perfiles destaquen.",
+      "8": "La calidad y velocidad de DreamBez.com son impresionantes. Pude crear un headshot profesional que parece haber sido tomado en un estudio, todo en cuestión de segundos."
+    }
+},
+"InfoLanding": {
+    "title": "Potencia tu creatividad",
+    "description": "Descubre la diversión y el potencial de tus headshots con DreamBez.com. Transforma simples fotos en imágenes mejoradas con IA que reflejan tu verdadero yo.",
+    "list": {
+      "title": {
+        "1": "Crea sin esfuerzo",
+        "2": "Personaliza con IA",
+        "3": "Eleva tu presencia"
+      },
+      "description": {
+        "1": "Disfruta de un proceso fluido e intuitivo que hace que crear el headshot perfecto sea un juego de niños.",
+        "2": "Utiliza herramientas avanzadas de IA para personalizar cada aspecto de tu headshot, asegurándote de que sea único.",
+        "3": "Ya sea para el trabajo o el ocio, asegúrate de que tu presencia en línea destaque con headshots que combinan diversión y profesionalismo."
+      }
+    }
+},
+"Features": {
+    "title": "Explora nuestras características",
+    "subtitle": "Libera tu creatividad con herramientas potenciadas por IA diseñadas para hacer que cada headshot sea único.",
+    "features": {
+      "1": {
+        "title": "Creación sin esfuerzo",
+        "description": "Adapta tus headshots generados por IA para que se ajusten a tu estilo único. Nuestras herramientas intuitivas facilitan la personalización de cada detalle."
+      },
+      "2": {
+        "title": "IA personalizada",
+        "description": "Genera impresionantes headshots en segundos. Con el poder de la IA, nunca tendrás que esperar por imágenes de calidad profesional."
+      },
+      "3": {
+        "title": "Calidad profesional",
+        "description": "Incorpora fácilmente tus headshots en tus perfiles personales o profesionales, con formatos optimizados para cualquier plataforma."
+      },
+      "4": {
+        "title": "Creatividad mejorada con IA",
+        "description": "Tus datos están seguros con nosotros. Priorizamos tu privacidad y garantizamos que tus headshots se almacenen y compartan de manera segura."
+      },
+      "5": {
+        "title": "Divertido y envolvente",
+        "description": "Aprovecha el poder de la IA para explorar posibilidades creativas. Experimenta con diferentes estilos y looks sin esfuerzo."
+      },
+      "6": {
+        "title": "Divertido y envolvente",
+        "description": "Disfruta de una experiencia divertida y atractiva mientras creas headshots que son tanto profesionales como entretenidos."
+      }
+    }
+},
+ "NotFound": {
+    "pageNotFound": "Página no encontrada.",
+    "backTo": "Volver a",
+    "homepage": "inicio"
+},
+"StepsSection": {
+    "step": "Paso",
+    "uploadYourSelfies": "Sube tus selfies",
+    "uploadYourSelfiesDescription": "Sube de 1 a 5 selfies claras o fotos que muestren tu rostro en diferentes entornos.",
+    "personalizeYourStyle": "Personaliza tu estilo",
+    "personalizeYourStyleDescription": "Selecciona entre diversos estilos o crea indicaciones personalizadas para obtener headshots únicos.",
+    "instantAIMagic": "Magia instantánea con IA",
+    "instantAIMagicDescription": "Nuestra avanzada IA genera headshots de calidad profesional en segundos, listos para cualquier uso.",
+    "quickAndEasyProcess": "Proceso rápido y sencillo",
+    "createFunAndProHeadshotsIn3SimpleSteps": "Crea headshots divertidos y profesionales en 3 sencillos pasos",
+    "experienceTheFastestAITechnologyAtHeadShotsFunForStunningPersonalizedHeadshotsPerfectForEveryOccasion": "Experimenta la tecnología de IA más rápida en DreamBez.com para obtener headshots personalizados y sorprendentes, perfectos para cualquier ocasión."
+},
+"CTA": {
+    "title": "¡Haz que luzca increíble!",
+    "description": "¿Cansado de tus mismas selfies de siempre? ¡Nuestra cabina de fotos con IA está aquí para cambiar eso! No necesitas equipo sofisticado, solo unos pocos clics y ¡boom! Estás listo para impresionar al mundo.",
+    "button": "Empezar",
+    "cool_button": "¡Toma tus headshots divertidos ahora!",
+    "cool_title": "Headshots instantáneos y profesionales con la magia de la IA",
+    "cool_description": "Experimenta DreamBez.com. Crea retratos impresionantes en segundos, sin necesidad de fotógrafo."
+},
+"BentoGrid": {
+    "customizable_prompts": "Indicaciones personalizables",
+    "secure_by_design": "Seguridad por diseño",
+    "secure_by_design_description": "Tus datos están protegidos con la mejor seguridad, brindándote tranquilidad.",
+    "usually_in_10_seconds": "Normalmente en 10 segundos",
+    "lightning_fast_results": "Resultados ultrarrápidos",
+    "lightning_fast_results_description": "Obtén headshots generados por IA en 10 segundos.",
+    "professional_quality": "Calidad profesional",
+    "professional_quality_description": "Headshots generados con IA en DreamBez.com que rivalizan con la fotografía profesional, perfectos para cualquier ocasión y propósito.",
+    "effortlessly_fun": "Divertido y sin esfuerzo",
+    "effortlessly_fun_description": "Disfruta de un proceso fluido y entretenido, desde la captura hasta la recepción de tus headshots. Tan divertido como profesional.",
+    "superhero": "Superhéroe",
+    "witch": "Bruja",
+    "clay": "Arcilla"
+},
+"NavBar": {
+    "dashboard": "Panel de control",
+    "sign_in": "Iniciar sesión",
+    "blog": "Blog",
+    "generator-styles": "Estilos",
+    "pricing": "Precios"
+},
+"HeadshotStylePage": {
+    "label": "Estilos de DreamBez.com",
+    "title": "Estilos de headshot versátiles para cualquier ocasión",
+    "subtitle": "Descubre nuestra diversa colección de estilos de headshots generados por IA. Rápido, fácil y personalizado solo para ti.",
+    "headshot": {
+      "alt": "Retrato generado por IA: {name}",
+      "hot": "POPULAR",
+      "new": "NUEVO"
+    }
+},
+"PricingPage": {
+    "metadata": {
+      "title": "Precios – {siteTitle}",
+      "description": "Explora nuestros precios de headshots."
+    },
+    "label": "Precios",
+    "title": "Precios simples y transparentes",
+    "subtitle": "Elige el plan perfecto para ti. Sin tarifas ocultas, sin sorpresas.",
+    "trial_section_description": "Disfruta de una prueba de 7 días sin riesgos en todos los planes. Reembolso completo si no se usan créditos.",
+    "1_credit_1_headshot": "1 Crédito = 1 Headshot",
+    "processing": "Procesando...",
+    "purchase": "Comprar",
+    "most_popular": "Más popular",
+    "package": "Paquete",
+    "price": "Precio",
+    "price_per": "Precio por",
+    "credits": "Créditos",
+    "plans": {
+      "1": {
+        "description": "Iniciador de selfies: Tu primer paso hacia el glamour con IA",
+        "features": "2 Créditos"
+      },
+      "2": {
+        "description": "Encanto casual: Dale un toque especial a tus redes sociales",
+        "features": "10 Créditos"
+      },
+      "3": {
+        "description": "Superestrella de fotos: Desata tu modelo interior",
+        "features": "25 Créditos"
+      },
+      "4": {
+        "description": "Retrato profesional: Eleva tu presencia en línea",
+        "features": "50 Créditos"
+      },
+      "5": {
+        "description": "Transformador de equipo: Haz brillar a todo tu grupo",
+        "features": "100 Créditos"
+      },
+      "6": {
+        "description": "Paraíso de headshots: Disfruta de diversión ilimitada",
+        "features": "200 Créditos"
+      }
+    }
+},
+"PricingPageFAQ": {
+    "title": "Preguntas frecuentes",
+    "label": "Precios",
+    "subtitle": "Preguntas frecuentes sobre nuestros precios.",
+    "qa": [
+      [
+        "¿Qué es DreamBez.com?",
+        "DreamBez.com es una plataforma impulsada por IA que te permite crear headshots únicos e impresionantes de manera rápida y sencilla, personalizados para cada ocasión."
+      ],
+      [
+        "¿Cómo funciona el sistema de créditos?",
+        "1 Crédito = 1 Headshot. Ofrecemos varios paquetes de créditos para adaptarnos a diferentes necesidades. Puedes comprar créditos que se pueden utilizar para generar headshots con IA. Cuantos más créditos compres, mejor será el valor."
+      ],
+      [
+        "¿Cuáles son los precios de los paquetes de créditos?",
+        "Nuestros precios comienzan desde $2.99, perfecto para probar nuestro servicio. También ofrecemos paquetes más grandes, siendo la opción más popular el Plan Snapshot Superstar de $19.9, ideal para usuarios frecuentes."
+      ],
+      [
+        "¿Existen características para personalizar mis headshots?",
+        "¡Sí! Ofrecemos herramientas potenciadas por IA diseñadas para hacer que cada headshot sea único. Puedes explorar diversas funciones para desatar tu creatividad y personalizar tus headshots para diferentes ocasiones."
+      ],
+      [
+        "¿Qué tan rápida es la tecnología de IA utilizada para generar headshots?",
+        "Utilizamos la tecnología de IA más rápida disponible para garantizar una generación rápida y eficiente de headshots, generalmente en 10 segundos. Nuestro objetivo es proporcionarte resultados sorprendentes en el menor tiempo posible."
+      ],
+      [
+        "¿Qué tipo de fotos debo subir a la plataforma?",
+        "Recomendamos subir múltiples fotos frontales para garantizar que tu foto de perfil sea lo más precisa posible. Estas fotos deben mostrar una vista clara y sin obstrucciones de tu rostro. Asegúrate de que sean imágenes nítidas y de alta calidad, sin incluir otras personas o animales."
+      ],
+      [
+        "¿Puedo usar la misma foto para múltiples headshots?",
+        "Sí, puedes usar la misma foto para múltiples headshots. Nuestra tecnología de IA permite múltiples resultados a partir de una sola imagen, por lo que puedes crear diferentes estilos y apariencias con la misma foto."
+      ]
+    ]
+},
+ "BlogPage": {
+    "blog": "Blog",
+    "description": "Últimas noticias y actualizaciones de DreamBez.com",
+    "categories": "Categorías",
+    "all": "Todo",
+    "news": "Noticias",
+    "education": "Educación",
+    "more_articles": "Más artículos"
+},
+"StudioPage": {
+    "studios": "Estudios",
+    "create_new_studio": "Crear estudio",
+    "create_new_studio_short": "Crear",
+    "your_studios": "Tus estudios",
+    "a_list_of_all_your_created_studios": "Una lista de todos tus estudios creados.",
+    "name": "Nombre",
+    "type": "Tipo",
+    "headshots": "Headshots",
+    "created_at": "Creado el",
+    "no_studios_created": "No hay estudios creados",
+    "you_dont_have_any_studios_yet": "Aún no tienes ningún estudio. Comienza creando uno.",
+    "error_studio_type_required": "Por favor, selecciona un tipo de estudio.",
+    "error_studio_name_required": "Por favor, ingresa un nombre para el estudio.",
+    "error_at_least_one_image": "Por favor, sube al menos una imagen.",
+    "error_max_5_images": "Puedes subir un máximo de 5 imágenes.",
+    "error_failed_to_upload_image": "Error al subir la imagen",
+    "success_studio_created": "¡Estudio creado con éxito!",
+    "error_failed_to_create_studio": "Error al crear el estudio. Inténtalo de nuevo.",
+    "back_to_dashboard": "Volver al panel",
+    "enter_basic_info_for_your_studio": "Introduce la información básica de tu estudio",
+    "studio_name": "Nombre del estudio",
+    "this_is_the_name_that_will_be_displayed_for_your_studio": "Este es el nombre que se mostrará para tu estudio.",
+    "studio_type": "Tipo de estudio",
+    "male": "Hombre",
+    "female": "Mujer",
+    "kid": "Niño",
+    "select_the_type_of_studio_you_want_to_create": "Selecciona el tipo de estudio que deseas crear.",
+    "upload_sample_photos": "Sube fotos de muestra",
+    "please_upload_1_5_clear_front_facing_photos_that_meet_the_sample_photo_requirements": "Sube entre 1 y 5 fotos claras de frente que cumplan con los requisitos de fotos de muestra.",
+    "set_as_main": "Establecer como principal",
+    "main": "Principal",
+    "creating": "Creando...",
+    "upload_a_file": "Subir un archivo",
+    "or_drag_and_drop": "o arrastra y suelta",
+    "png_jpg_gif_up_to_10mb": "PNG, JPG, GIF hasta 10MB",
+    "create_studio": "Crear estudio",
+    "sample_photo_requirements": "Requisitos de fotos de muestra",
+    "make_sure_your_sample_photos_meet_these_standards": "Asegúrate de que tus fotos de muestra cumplan con estos estándares:",
+    "front_and_clear": "Frontal y clara",
+    "multiple_people": "Varias personas",
+    "side_shots": "Fotos de perfil",
+    "blurry_photos": "Fotos borrosas",
+    "obstructing": "Obstrucción",
+    "detailed_explanation_for": "Explicación detallada para",
+    "your_studio_name": "El nombre de tu estudio",
+    "select_studio_type": "Selecciona el tipo de estudio",
+    "error_failed_to_fetch_prediction_result": "Error al obtener el resultado de la predicción.",
+    "shooting_results": "Resultados de la toma",
+    "download": "Descargar",
+    "open_in_new_tab": "Abrir en una nueva pestaña",
+    "close": "Cerrar",
+    "your_studio_created_successfully": "¡Tu estudio se ha creado con éxito!",
+    "ready_to_shoot": "¿Listo para capturar?",
+    "click_shoot_below_to_begin_creating_your_first_headshot": "Haz clic en 'Capturar' abajo para comenzar a crear tu primer headshot.",
+    "each_shoot_generates_a_unique_headshot_even_with_the_same_style_or_prompt_try_multiple_times": "Cada toma genera un headshot único, incluso con el mismo estilo o prompt. Prueba varias veces.",
+    "studio_updated_successfully": "¡Estudio actualizado con éxito!",
+    "failed_to_update_studio_please_try_again": "Error al actualizar el estudio. Inténtalo de nuevo.",
+    "studio_deleted_successfully": "¡Estudio eliminado con éxito!",
+    "failed_to_delete_studio_please_try_again": "Error al eliminar el estudio. Inténtalo de nuevo.",
+    "edit_studio": "Editar estudio",
+    "delete_studio": "Eliminar estudio",
+    "deleting": "Eliminando...",
+    "delete": "Eliminar",
+    "cancel": "Cancelar",
+    "are_you_sure_you_want_to_delete_this_studio": "¿Estás seguro de que deseas eliminar este estudio?",
+    "this_action_cannot_be_undone": "Esta acción no se puede deshacer.",
+    "this_will_permanently_delete_the_studio_and_all_associated_data": "Esto eliminará permanentemente el estudio y todos los datos asociados.",
+    "save_changes": "Guardar cambios",
+    "insufficient_credits_please_add_more_credits_to_continue": "Créditos insuficientes. Agrega más créditos para continuar.",
+    "select_style": "Seleccionar estilo",
+    "custom": "Personalizado",
+    "show": "Mostrar",
+    "hide": "Ocultar",
+    "advanced_settings": "Configuración avanzada",
+    "custom_prompt_required": "Prompt personalizado (obligatorio)",
+    "enter_your_custom_prompt_here": "Introduce tu prompt personalizado aquí...",
+    "custom_negative_prompt_optional": "Prompt negativo personalizado (opcional)",
+    "enter_your_custom_negative_prompt_here": "Introduce tu prompt negativo personalizado aquí...",
+    "hot": "POPULAR",
+    "new": "NUEVO",
+    "aspect_ratio": "Relación de aspecto",
+    "portrait_3_4": "Retrato (3:4)",
+    "landscape_4_3": "Paisaje (4:3)",
+    "square_1_1": "Cuadrado (1:1)",
+    "portrait": "Retrato",
+    "landscape": "Paisaje",
+    "square": "Cuadrado",
+    "pay_and_shoot": "Pagar y capturar",
+    "from_0_4_headshot": "desde $0.4/Headshot",
+    "loading_credits": "Cargando créditos...",
+    "shoot": "Capturar",
+    "shooting": "Capturando...",
+    "failed_to_start_shoot": "Error al iniciar la captura",
+    "shooting_failed": "Error en la captura. Verifica las fotos subidas o contacta con soporte.",
+    "failed_to_start_shoot_please_try_again_or_contact_support": "Error al iniciar la captura. Inténtalo de nuevo o contacta con soporte.",
+    "shoot_started_successfully_1_credit_used": "Captura iniciada con éxito. 1 crédito utilizado.",
+    "processing": "Procesando...",
+    "completed": "Completado",
+    "failed": "Fallido",
+    "our_privacy_policy": "Nuestra política de privacidad",
+    "if_you_have_any_questions_about_the_photos": "Si tienes preguntas sobre la privacidad de las fotos, consulta:"
+},
+"Credits": {
+    "credits": "Créditos",
+    "your_current_balance": "Tu saldo actual",
+    "buy_credits": "Comprar créditos",
+    "check_your_credits_transactions_and_usage": "Revisa tus transacciones de créditos y su uso.",
+    "if_you_have_any_questions_about_billing_please_contact_us_at": "Si tienes alguna pregunta sobre la facturación, contáctanos en",
+    "billing": "Facturación",
+    "credits_activity": "Actividad de créditos",
+    "30_day_credit_activity_summary": "Resumen de actividad de créditos de los últimos 30 días",
+    "credits_history": "Historial de créditos",
+    "select_page_size": "Seleccionar tamaño de página",
+    "10_per_page": "10 por página",
+    "20_per_page": "20 por página",
+    "50_per_page": "50 por página",
+    "type": "Tipo",
+    "amount": "Cantidad",
+    "date": "Fecha"
+}
+}
