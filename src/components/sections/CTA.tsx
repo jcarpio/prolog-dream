@@ -123,7 +123,7 @@ export default function CTA() {
             <label className="block mb-2 font-bold">🔧 Base de conocimiento:</label>
             <textarea
               className="w-full p-2 mb-4 rounded border font-mono font-bold"
-              rows={20}
+              rows={15}
               value={facts}
               onChange={(e) => setFacts(e.target.value)}
             />
@@ -131,7 +131,7 @@ export default function CTA() {
             <label className="block mb-2 font-bold">❓ Consulta:</label>
             <textarea
               className="w-full p-2 mb-4 rounded border font-mono font-bold"
-              rows={10}
+              rows={5}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
@@ -152,7 +152,7 @@ export default function CTA() {
 
             {solution && (
               <>
-                <label className="block mt-6 mb-2 font-bold text-blue-900">✅ Solución esperada:</label>
+                <label className="block mt-6 mb-2 font-bold text-blue-900">✅ Solución:</label>
                 <pre className="w-full p-3 bg-blue-100 text-blue-800 rounded font-mono overflow-y-auto">
                   {solution}
                 </pre>
