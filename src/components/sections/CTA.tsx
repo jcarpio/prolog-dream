@@ -72,11 +72,11 @@ abuelo(X, Y) :- padre(X, Z), padre(Z, Y).`);
         <Card className="rounded-xl border border-secondary bg-secondary">
           <CardHeader>
             <CardTitle className="text-center text-3xl font-semibold text-secondary-foreground">
-              {t("title")}
+             <!--  {t("title")} -->
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="mb-6 text-center text-muted-foreground">{t("description")}</p>
+            <!-- p className="mb-6 text-center text-muted-foreground">{t("description")}</p -->
 
             <label className="block mb-2 font-bold">🔧 Base de conocimiento:</label>
             <textarea
