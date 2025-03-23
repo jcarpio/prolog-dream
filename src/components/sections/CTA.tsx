@@ -19,16 +19,30 @@ const motivationalPhrases = [
   "The universe holds you.",
 ];
 
+const exercises = [
+  {
+    id: "1",
+    label: "🧩 Ejercicio 1: Abuelo",
+    facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
+    query: "abuelo(X, luis).",
+    solution: "X = juan."
+  },
+  {
+    id: "2",
+    label: "🧩 Ejercicio 2: Hermano",
+    facts: `padre(juan, maria).\npadre(juan, pedro).\nhermano(X, Y) :- padre(Z, X), padre(Z, Y), X \\= Y.`,
+    query: "hermano(maria, X).",
+    solution: "X = pedro."
+  }
+];
+
 export default function CTA() {
   const t = useTranslations("CTA");
 
-  const [facts, setFacts] = useState(`padre(juan, maria).
-padre(juan, pedro).
-padre(pedro, luis).
-abuelo(X, Y) :- padre(X, Z), padre(Z, Y).`);
-
-  const [query, setQuery] = useState("abuelo(X, luis).");
+  const [facts, setFacts] = useState(exercises[0].facts);
+  const [query, setQuery] = useState(exercises[0].query);
   const [output, setOutput] = useState("");
+  const [solution, setSolution] = useState("");
 
   useEffect(() => {
     if (output === "⏳ Ejecutando...") {
@@ -42,6 +56,7 @@ abuelo(X, Y) :- padre(X, Z), padre(Z, Y).`);
 
   const handleRun = async () => {
     setOutput("⏳ Ejecutando...");
+    setSolution("");
 
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 15000);
@@ -66,8 +81,19 @@ abuelo(X, Y) :- padre(X, Z), padre(Z, Y).`);
     }
   };
 
-  const renderLineNumbers = () => {
-    return facts.split("\n").map((_, i) => `${i + 1}`).join("\n");
+  const handleExerciseChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const selected = exercises.find((ex) => ex.id === e.target.value);
+    if (selected) {
+      setFacts(selected.facts);
+      setQuery(selected.query);
+      setSolution("");
+      setOutput("");
+    }
+  };
+
+  const handleShowSolution = () => {
+    const selected = exercises.find((ex) => ex.query === query && ex.facts === facts);
+    setSolution(selected?.solution || "No solution available.");
   };
 
   return (
@@ -75,22 +101,32 @@ abuelo(X, Y) :- padre(X, Z), padre(Z, Y).`);
       <MaxWidthWrapper>
         <Card className="rounded-xl border border-secondary bg-secondary">
           <CardHeader>
-            <CardTitle className="text-center text-3xl font-semibold text-secondary-foreground" />
+            <CardTitle className="text-center text-3xl font-semibold text-secondary-foreground">
+              {t("title")}
+            </CardTitle>
           </CardHeader>
+
           <CardContent>
 
-            <label className="block mb-2 font-bold">🔧 Base de conocimiento:</label>
-            <div className="relative mb-4 flex">
-              <pre className="text-right pr-3 text-sm text-muted-foreground font-mono font-bold select-none pt-2">
-                {renderLineNumbers()}
-              </pre>
-              <textarea
-                className="w-full p-2 rounded border font-mono font-bold"
-                rows={20}
-                value={facts}
-                onChange={(e) => setFacts(e.target.value)}
-              />
+            <div className="mb-4">
+              <label className="block mb-2 font-bold">📚 Elige un ejercicio:</label>
+              <select
+                className="w-full p-2 rounded border font-bold"
+                onChange={handleExerciseChange}
+              >
+                {exercises.map((ex) => (
+                  <option key={ex.id} value={ex.id}>{ex.label}</option>
+                ))}
+              </select>
             </div>
+
+            <label className="block mb-2 font-bold">🔧 Base de conocimiento:</label>
+            <textarea
+              className="w-full p-2 mb-4 rounded border font-mono font-bold"
+              rows={20}
+              value={facts}
+              onChange={(e) => setFacts(e.target.value)}
+            />
 
             <label className="block mb-2 font-bold">❓ Consulta:</label>
             <textarea
@@ -100,24 +136,28 @@ abuelo(X, Y) :- padre(X, Z), padre(Z, Y).`);
               onChange={(e) => setQuery(e.target.value)}
             />
 
-            <div className="text-center mb-6">
-              <Button
-                size="lg"
-                variant="default"
-                onClick={handleRun}
-                className="transition-all hover:rotate-2 hover:scale-110"
-              >
+            <div className="flex justify-center gap-4 mb-6">
+              <Button size="lg" variant="default" onClick={handleRun}>
                 {t("button")} ▶️
+              </Button>
+              <Button size="lg" variant="secondary" onClick={handleShowSolution}>
+                Mostrar solución ✅
               </Button>
             </div>
 
             <label className="block mb-2 font-bold">📤 Resultado:</label>
-            <pre
-              className="w-full p-3 bg-black text-green-400 rounded font-mono overflow-y-auto"
-              style={{ maxHeight: '300px', height: '260px' }} // 10 líneas aprox
-            >
+            <pre className="w-full p-3 bg-black text-green-400 rounded font-mono overflow-y-auto" style={{ height: '200px' }}>
               {output || "(salida vacía)"}
             </pre>
+
+            {solution && (
+              <>
+                <label className="block mt-6 mb-2 font-bold text-blue-900">✅ Solución esperada:</label>
+                <pre className="w-full p-3 bg-blue-100 text-blue-800 rounded font-mono overflow-y-auto">
+                  {solution}
+                </pre>
+              </>
+            )}
           </CardContent>
         </Card>
       </MaxWidthWrapper>
