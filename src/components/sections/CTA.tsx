@@ -22,17 +22,17 @@ const motivationalPhrases = [
 const exercises = [
   {
     id: "1",
-    label: "🧩 Ejercicio 1: Abuelo",
+    label: "🧩 1: Abuelo",
     facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
     query: "abuelo(X, luis).",
     solution: "X = juan."
   },
   {
     id: "2",
-    label: "🧩 Ejercicio 2: Hermano",
-    facts: `padre(juan, maria).\npadre(juan, pedro).\nhermano(X, Y) :- padre(Z, X), padre(Z, Y), X \\= Y.`,
-    query: "hermano(maria, X).",
-    solution: "X = pedro."
+    label: "🧩 2: Natural",
+    facts: `natural(1).\nnatural(N):-   natural(   ).`,
+    query: "natural(5).",
+    solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`
   }
 ];
 
