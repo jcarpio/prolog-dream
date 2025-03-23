@@ -1,27 +1,17 @@
 export const pricingData = [
   {
     id: 1,
-    price: 10,
-    quantity: 10,
+    price: 0.5,
+    quantity: 1000,
   },
   {
     id: 2,
-    price: 20,
-    quantity: 20,
+    price: 1,
+    quantity: 10000,
   },
   {
     id: 3,
-    price: 50,
-    quantity: 50,
-  },
-  {
-    id: 4,
-    price: 100,
-    quantity: 100,
-  },
-  {
-    id: 5,
-    price: 200,
-    quantity: 200,
+    price: 10,
+    quantity: 100000,
   }
 ];
