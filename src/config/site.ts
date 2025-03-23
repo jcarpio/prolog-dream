@@ -57,4 +57,10 @@ export const footerLinks: SidebarNavItem[] = [
 
     ],
   },
+   {
+    title: "Resources",
+    items: [
+      { title: "Pricing", href: "/pricing" },
+   ],
+  },
 ];
