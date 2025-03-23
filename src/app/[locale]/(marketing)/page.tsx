@@ -14,14 +14,14 @@ export default function IndexPage({ params: { locale } }: { params: { locale: st
 
   return (
     <>
-      <HeroLanding />
-      <PreviewLanding />
+      {/* <HeroLanding /> */}
+      {/*<PreviewLanding /> */}
        {/* <Powered /> */}
-      <StepsSection />
-      <BentoGrid />
-      <InfoLanding/>
-      <Features />
-      <Testimonials />
+      {/* <StepsSection /> */}
+      {/* <BentoGrid /> */}
+      {/* <InfoLanding/> */}
+      {/* <Features /> */}
+      {/* <Testimonials /> */}
       <CTA />
     </>
   );
