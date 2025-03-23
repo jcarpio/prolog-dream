@@ -137,7 +137,7 @@ export default function CTA() {
               <div className="mb-6 aspect-video w-full overflow-hidden rounded-md">
                 <iframe
                   width="100%"
-                  height="315"
+                  height="100%"
                   src={selectedVideo}
                   title="YouTube video player"
                   frameBorder="0"
