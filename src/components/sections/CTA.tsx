@@ -8,6 +8,7 @@ import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslations } from "next-intl";
 import { getUserCredits, spendCredits } from "@/lib/credits";
+import { toast } from "sonner";
 
 const motivationalPhrases = [
   "Take these seconds, breathe.",
@@ -29,7 +30,7 @@ const exercises = [
     facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
     query: "abuelo(X, luis).",
     solution: "X = juan.",
-    video: "https://www.youtube.com/embed/RSv9aSsg2wc?si=ukWGqnC4zGEUGWkH&amp;start=1405"
+    video: "https://www.youtube.com/embed/RSv9aSsg2wc?si=ukWGqnC4zGEUGWkH&start=1405"
   },
   {
     id: "2",
@@ -37,7 +38,7 @@ const exercises = [
     facts: `natural(1).\nnatural(N):-   natural(   ).`,
     query: "natural(5).",
     solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`,
-    video: "https://www.youtube.com/embed/RSv9aSsg2wc?si=ukWGqnC4zGEUGWkH&amp;start=129"
+    video: ""
   }
 ];
 
@@ -51,7 +52,7 @@ export default function CTA() {
   const [output, setOutput] = useState("");
   const [solution, setSolution] = useState("");
   const [userCredits, setUserCredits] = useState<number | null>(null);
-  const [selectedVideo, setSelectedVideo] = useState<string | null>(exercises[0].video);
+  const [videoUrl, setVideoUrl] = useState(exercises[0].video);
 
   useEffect(() => {
     if (session) {
@@ -91,9 +92,10 @@ export default function CTA() {
       const data = await response.json();
       setOutput(data.output || "⚠️ Error: " + (data.error || "Unknown"));
 
-      // Descontar crédito
+      // Deduct credit and show toast
       const newCredits = await spendCredits(1);
       setUserCredits(newCredits);
+      toast.success(t("shoot_started_successfully_1_credit_used"));
 
     } catch (err) {
       if (err.name === 'AbortError') {
@@ -111,7 +113,7 @@ export default function CTA() {
       setQuery(selected.query);
       setSolution("");
       setOutput("");
-      setSelectedVideo(selected.video);
+      setVideoUrl(selected.video);
     }
   };
 
@@ -131,16 +133,18 @@ export default function CTA() {
           </CardHeader>
 
           <CardContent>
-            {selectedVideo && (
-              <div className="mb-6 aspect-video w-full">
+            {videoUrl && (
+              <div className="mb-6">
                 <iframe
-                  className="w-full h-full rounded"
-                  src={selectedVideo}
+                  width="100%"
+                  height="315"
+                  src={videoUrl}
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
-                ></iframe>
+                />
               </div>
             )}
 
