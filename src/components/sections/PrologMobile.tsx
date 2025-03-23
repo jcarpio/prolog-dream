@@ -58,7 +58,7 @@ export default function PrologMobile() {
 padre(juan, pedro).
 padre(pedro, luis).
 abuelo(X, Y) :- padre(X, Z), padre(Z, Y).`);
-  const [query, setQuery] = useState("abuelo(X, luis).\");
+  const [query, setQuery] = useState("abuelo(X, luis).");
   const [output, setOutput] = useState("");
 
   useEffect(() => {
