@@ -1,13 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslations } from "next-intl";
-import { getUserCredits } from "@/lib/credits";
-import { useSession } from "next-auth/react";
 
 const motivationalPhrases = [
   "Take these seconds, breathe.",
@@ -19,7 +16,7 @@ const motivationalPhrases = [
   "Everything is perfect now.",
   "You are deeply supported.",
   "Peace is within you.",
-  "The universe holds you."
+  "The universe holds you.",
 ];
 
 const exercises = [
@@ -28,33 +25,27 @@ const exercises = [
     label: "🧩 1: Abuelo",
     facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
     query: "abuelo(X, luis).",
-    solution: "X = juan."
+    solution: "X = juan.",
+    videoUrl: "https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_1"
   },
   {
     id: "2",
     label: "🧩 2: Natural",
     facts: `natural(1).\nnatural(N):-   natural(   ).`,
     query: "natural(5).",
-    solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`
+    solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`,
+    videoUrl: "https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_2"
   }
 ];
 
 export default function CTA() {
   const t = useTranslations("CTA");
-  const router = useRouter();
-  const { data: session } = useSession();
 
   const [facts, setFacts] = useState(exercises[0].facts);
   const [query, setQuery] = useState(exercises[0].query);
   const [output, setOutput] = useState("");
   const [solution, setSolution] = useState("");
-  const [userCredits, setUserCredits] = useState<number | null>(null);
-
-  useEffect(() => {
-    if (session) {
-      getUserCredits().then(setUserCredits);
-    }
-  }, [session]);
+  const [videoUrl, setVideoUrl] = useState(exercises[0].videoUrl);
 
   useEffect(() => {
     if (output === "⏳ Ejecutando...") {
@@ -67,9 +58,6 @@ export default function CTA() {
   }, [output]);
 
   const handleRun = async () => {
-    if (!session) return router.push("/login");
-    if (userCredits !== null && userCredits <= 0) return router.push("/pricing");
-
     setOutput("⏳ Ejecutando...");
     setSolution("");
 
@@ -103,6 +91,7 @@ export default function CTA() {
       setQuery(selected.query);
       setSolution("");
       setOutput("");
+      setVideoUrl(selected.videoUrl);
     }
   };
 
@@ -122,6 +111,7 @@ export default function CTA() {
           </CardHeader>
 
           <CardContent>
+
             <div className="mb-4">
               <label className="block mb-2 font-bold">📚 Elige un ejercicio:</label>
               <select
@@ -171,6 +161,21 @@ export default function CTA() {
                   {solution}
                 </pre>
               </>
+            )}
+
+            {videoUrl && (
+              <div className="mt-8">
+                <label className="block mb-2 font-bold">🎥 Video explicativo:</label>
+                <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+                  <iframe
+                    className="absolute top-0 left-0 w-full h-full rounded-lg"
+                    src={videoUrl}
+                    title="Video explicativo"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
             )}
           </CardContent>
         </Card>
