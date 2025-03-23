@@ -185,7 +185,7 @@ export default function CTA() {
               </Button>
             </div>
 
-            <label className="block mb-2 font-bold">📤 Resultado:</label>
+            <label className="block mb-2 font-bold">📤 Resultado: </label>
             <pre className="w-full p-3 bg-black text-green-400 rounded font-mono overflow-y-auto" style={{ height: '200px' }}>
               {output || "(salida vacía)"}
             </pre>
