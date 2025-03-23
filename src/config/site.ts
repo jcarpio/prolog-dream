@@ -4,23 +4,23 @@ import { env } from "@/env.mjs";
 const site_url = env.NEXT_PUBLIC_APP_URL;
 
 export const siteConfig: SiteConfig = {
-  title: "Fun & Pro AI Headshots Generator | DreamBez.com",
-  name: "DreamBez.com",
+  title: "Learn and Get Super Powers | TruePowers.org",
+  name: "TruePowers.org",
   description:
-    "Create stunning fun and professional headshots with AI at HeadShots.fun. Fast, affordable, and personalized AI-powered headshot generator. Perfect for LinkedIn, resumes, and social media.",
+    "Unlock your superpower to solve complex problems simply by asking your computer what you want — no coding required, just pure intuitive creation.",
   url: site_url,
   ogImage: `${site_url}/_static/og.jpg`,
   links: {
     twitter: "https://twitter.com/jcarpio",
-    github: "https://github.com/jcarpio/dreambez",
+    github: "https://github.com/jcarpio/prolog-dream",
   },
-  mailSupport: "info@dreambez.com",
+  mailSupport: "connect@truepowers.org",
   structuredData: {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "DreamBez.com",
+    "name": "TruePowers.org",
     "url": site_url,
-    "description": "Create stunning fun and professional headshots with AI at DreamBez.com. Fast, affordable, and personalized AI-powered headshot generator. Perfect for LinkedIn, resumes, and social media.",
+    "description": "Unlock your superpower to solve complex problems simply by asking your computer what you want — no coding required, just pure intuitive creation.",
     "potentialAction": {
       "@type": "SearchAction",
       "target": `${site_url}/search?q={search_term_string}`,
@@ -55,14 +55,6 @@ export const footerLinks: SidebarNavItem[] = [
     items: [
       { title: "DreamBez", href: "https://dreambez.com" },
 
-    ],
-  },
-  {
-    title: "Resources",
-    items: [
-      { title: "Pricing", href: "/pricing" },
-      { title: "Styles", href: "/generator-styles" },
-      { title: "Blog", href: "/blog" },
     ],
   },
 ];
