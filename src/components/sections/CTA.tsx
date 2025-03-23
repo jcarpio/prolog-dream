@@ -66,29 +66,36 @@ abuelo(X, Y) :- padre(X, Z), padre(Z, Y).`);
     }
   };
 
+  const renderLineNumbers = () => {
+    return facts.split("\n").map((_, i) => `${i + 1}`).join("\n");
+  };
+
   return (
     <section className="py-16 text-muted-foreground">
       <MaxWidthWrapper>
         <Card className="rounded-xl border border-secondary bg-secondary">
           <CardHeader>
-            <CardTitle className="text-center text-3xl font-semibold text-secondary-foreground">
-            
-            </CardTitle>
+            <CardTitle className="text-center text-3xl font-semibold text-secondary-foreground" />
           </CardHeader>
           <CardContent>
-            
+
             <label className="block mb-2 font-bold">🔧 Base de conocimiento:</label>
-            <textarea
-              className="w-full p-2 mb-4 rounded border font-mono font-bold"
-              rows={6}
-              value={facts}
-              onChange={(e) => setFacts(e.target.value)}
-            />
+            <div className="relative mb-4 flex">
+              <pre className="text-right pr-3 text-sm text-muted-foreground font-mono font-bold select-none pt-2">
+                {renderLineNumbers()}
+              </pre>
+              <textarea
+                className="w-full p-2 rounded border font-mono font-bold"
+                rows={20}
+                value={facts}
+                onChange={(e) => setFacts(e.target.value)}
+              />
+            </div>
 
             <label className="block mb-2 font-bold">❓ Consulta:</label>
             <textarea
               className="w-full p-2 mb-4 rounded border font-mono font-bold"
-              rows={2}
+              rows={10}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
@@ -105,7 +112,10 @@ abuelo(X, Y) :- padre(X, Z), padre(Z, Y).`);
             </div>
 
             <label className="block mb-2 font-bold">📤 Resultado:</label>
-            <pre className="w-full p-3 bg-black text-green-400 rounded font-mono overflow-y-auto" style={{ maxHeight: '200px' }}>
+            <pre
+              className="w-full p-3 bg-black text-green-400 rounded font-mono overflow-y-auto"
+              style={{ maxHeight: '300px', height: '260px' }} // 10 líneas aprox
+            >
               {output || "(salida vacía)"}
             </pre>
           </CardContent>
