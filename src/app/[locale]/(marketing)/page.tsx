@@ -16,7 +16,7 @@ export default function IndexPage({ params: { locale } }: { params: { locale: st
     <>
       <HeroLanding />
       <PreviewLanding />
-      <Powered />
+       {/* <Powered /> */}
       <StepsSection />
       <BentoGrid />
       <InfoLanding/>
