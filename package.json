@@ -13,7 +13,7 @@
     "start": "next start",
     "lint": "next lint",
     "fix": "next lint --fix",
-    "prebuild": "npm run prisma:db:push && npm run fix",
+    "prebuild": "npm run prisma:db:push",
     "preview": "next build && next start",
     "postinstall": "dotenv -e .env.local -- prisma generate",
     "prisma:db:push": "dotenv -e .env.local -- prisma db push",
