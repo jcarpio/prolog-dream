@@ -12,7 +12,7 @@
     "turbo": "next dev --turbo",
     "start": "next start",
     "lint": "next lint",
-    // "fix": "next lint --fix",
+    /* "fix": "next lint --fix", */
     "prebuild": "npm run prisma:db:push && npm run fix",
     "preview": "next build && next start",
     "postinstall": "dotenv -e .env.local -- prisma generate",
