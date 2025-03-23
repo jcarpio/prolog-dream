@@ -5,8 +5,6 @@ import { Button } from "@/components/ui/button";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
-import { getUserCredits } from "@/lib/credits";
 
 const motivationalPhrases = [
   "Take these seconds, breathe.",
@@ -18,7 +16,7 @@ const motivationalPhrases = [
   "Everything is perfect now.",
   "You are deeply supported.",
   "Peace is within you.",
-  "The universe holds you."
+  "The universe holds you.",
 ];
 
 const exercises = [
@@ -28,7 +26,7 @@ const exercises = [
     facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
     query: "abuelo(X, luis).",
     solution: "X = juan.",
-    video: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    videoUrl: "https://youtu.be/RSv9aSsg2wc?si=LM8VfayaLacf0607"
   },
   {
     id: "2",
@@ -36,19 +34,18 @@ const exercises = [
     facts: `natural(1).\nnatural(N):-   natural(   ).`,
     query: "natural(5).",
     solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`,
-    video: "https://www.youtube.com/watch?v=5MgBikgcWnY"
+    videoUrl: "https://youtu.be/RSv9aSsg2wc?si=LM8VfayaLacf0607"
   }
 ];
 
 export default function CTA() {
   const t = useTranslations("CTA");
-  const router = useRouter();
 
   const [facts, setFacts] = useState(exercises[0].facts);
   const [query, setQuery] = useState(exercises[0].query);
   const [output, setOutput] = useState("");
   const [solution, setSolution] = useState("");
-  const [videoUrl, setVideoUrl] = useState(exercises[0].video);
+  const [videoUrl, setVideoUrl] = useState(exercises[0].videoUrl);
 
   useEffect(() => {
     if (output === "⏳ Ejecutando...") {
@@ -63,16 +60,6 @@ export default function CTA() {
   const handleRun = async () => {
     setOutput("⏳ Ejecutando...");
     setSolution("");
-
-    const userCredits = await getUserCredits();
-    if (userCredits === null) {
-      router.push("/auth/login");
-      return;
-    }
-    if (userCredits <= 0) {
-      router.push("/pricing");
-      return;
-    }
 
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 15000);
@@ -104,7 +91,7 @@ export default function CTA() {
       setQuery(selected.query);
       setSolution("");
       setOutput("");
-      setVideoUrl(selected.video);
+      setVideoUrl(selected.videoUrl);
     }
   };
 
@@ -112,10 +99,6 @@ export default function CTA() {
     const selected = exercises.find((ex) => ex.query === query && ex.facts === facts);
     setSolution(selected?.solution || "No solution available.");
   };
-
-  const embedUrl = videoUrl?.includes("youtube.com/watch")
-    ? videoUrl.replace("watch?v=", "embed/")
-    : "";
 
   return (
     <section className="py-16 text-muted-foreground">
@@ -128,25 +111,6 @@ export default function CTA() {
           </CardHeader>
 
           <CardContent>
-
-            {embedUrl && (
-              <div className="mb-6">
-                <div className="aspect-video w-full max-w-3xl mx-auto">
-                  <iframe
-                    className="rounded-md w-full h-full"
-                    src={embedUrl}
-                    title="Exercise Video"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <div className="text-center mt-2">
-                  <a href={videoUrl} target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
-                    🔗 {t("Watch on YouTube")}
-                  </a>
-                </div>
-              </div>
-            )}
 
             <div className="mb-4">
               <label className="block mb-2 font-bold">📚 Elige un ejercicio:</label>
@@ -198,10 +162,24 @@ export default function CTA() {
                 </pre>
               </>
             )}
+
+            {videoUrl && (
+              <div className="mt-8">
+                <label className="block mb-2 font-bold">🎥 Video explicativo:</label>
+                <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+                  <iframe
+                    className="absolute top-0 left-0 w-full h-full rounded-lg"
+                    src={videoUrl}
+                    title="Video explicativo"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            )}
           </CardContent>
         </Card>
       </MaxWidthWrapper>
     </section>
   );
 }
-
