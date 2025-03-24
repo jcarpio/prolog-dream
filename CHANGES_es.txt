@@ -34,83 +34,83 @@ CHANGES_es.txt
 - Actualizado endpoint POST /api/studio/create. 24/03/2025 10:55
 - Mensajes de éxito/error de creación de curso actualizados. 24/03/2025 10:50
 - Diseño de formulario simplificado para crear cursos. 24/03/2025 10:45
--	Mejorada UI del componente selector de ejercicios. 24/03/2025 09:05
--	Arreglada navegación entre páginas del dashboard. 24/03/2025 09:10
--	Actualizado diseño de botón de créditos en CTA. 24/03/2025 09:15
--	Ajustado espaciado en formulario de creación de cursos. 24/03/2025 09:20
--	Añadido loader visual durante la ejecución de ejercicios. 24/03/2025 09:25
--	Creado sistema de alerta para errores de conexión. 24/03/2025 09:30
--	Refactorizado componente MaxWidthWrapper para mayor responsividad. 24/03/2025 09:35
--	Integrado sistema de autenticación con Google. 24/03/2025 09:40
--	Actualizado favicon y metadatos del sitio. 24/03/2025 09:45
--	Añadido indicador visual de crédito restante en CTA. 24/03/2025 09:50
--	Implementado botón para mostrar solución del ejercicio. 24/03/2025 09:55
--	Optimizado renderizado de iframe del video. 24/03/2025 10:00
--	Incluido aviso al usuario cuando se queda sin créditos. 24/03/2025 10:05
--	Separado código de lógica de ejecución en función utilitaria. 24/03/2025 10:10
--	Estilizado el pre con resultados Prolog. 24/03/2025 10:15
--	Reorganizado orden de ejercicios en selector. 24/03/2025 10:20
--	Soporte básico para redirección tras login. 24/03/2025 10:25
--	Migrado componente de CardHeader a diseño más limpio. 24/03/2025 10:30
--	Habilitada navegación entre cursos desde el dashboard. 24/03/2025 10:35
--	Limpiado código innecesario en CTA. 24/03/2025 10:40
--	Integrado sistema de gastos de créditos por ejecución de ejercicios. 24/03/2025 10:35
--	Implementado control de sesión para proteger rutas del dashboard. 24/03/2025 10:30
--	Mejorado feedback visual durante carga de ejercicios. 24/03/2025 10:25
--	Añadida validación de campos obligatorios en el formulario de cursos. 24/03/2025 10:20
--	Ajustado diseño responsive del dashboard en móvil. 24/03/2025 10:15
--	Añadido icono de estado para cada intento en la tabla de predicciones. 24/03/2025 10:10
--	Sincronización automática de predicciones tras ejecución. 24/03/2025 10:00
--	Estilizadas cabeceras de sección para mayor claridad visual. 24/03/2025 09:50
--	Añadida barra de progreso durante subida de imágenes (deprecated). 24/03/2025 09:40
--	Corregido bug que impedía ejecutar consulta con valores numéricos. 24/03/2025 09:35
--	Simplificada estructura del objeto studio al eliminar imágenes. 24/03/2025 09:30
--	Eliminado código muerto relacionado con previews de imagen. 24/03/2025 09:25
--	Añadido mensaje de bienvenida al acceder al dashboard. 24/03/2025 09:20
--	Mejorada accesibilidad en botones del formulario. 24/03/2025 09:15
--	Separados estilos de botones por tipo de acción. 24/03/2025 09:10
--	Establecida altura mínima en campos de texto. 24/03/2025 09:05
--	Ajustado margen inferior en elementos del CTA. 24/03/2025 09:00
--	Configurado hook personalizado para obtener créditos del usuario. 24/03/2025 08:55
--	Añadido soporte para múltiples resoluciones de pantalla. 24/03/2025 08:50
--	Configurado favicon personalizado para el proyecto. 24/03/2025 08:45
--	Añadido sistema de selector de ejercicios en componente CTA. 24/03/2025 08:40
--	Integración inicial de vídeos explicativos en ejercicios. 24/03/2025 08:35
--	Diseño inicial del componente CTA con estructura de base de conocimiento y consulta. 24/03/2025 08:30
--	Agregado botón para mostrar solución del ejercicio. 24/03/2025 08:25
--	Implementada conexión con backend Prolog para resolver consultas. 24/03/2025 08:20
--	Agregado control de créditos para ejecución de ejercicios. 24/03/2025 08:15
--	Configurado manejo de errores de red y timeout en CTA. 24/03/2025 08:10
--	Creado componente visual para mostrar resultados con estilo terminal. 24/03/2025 08:05
--	Implementada lógica para mostrar mensajes motivacionales mientras se ejecuta. 24/03/2025 08:00
--	Añadido componente <MaxWidthWrapper> para alinear contenido en pantallas grandes. 24/03/2025 07:55
--	Creado hook para obtener sesión del usuario desde NextAuth. 24/03/2025 07:50
--	Estilizado botón de créditos con icono de monedas. 24/03/2025 07:45
--	Implementado toast de éxito tras gastar crédito correctamente. 24/03/2025 07:40
--	Agregado feedback visual para mostrar solución al ejercicio. 24/03/2025 07:35
--	Primera versión del componente CTA completada y funcional. 24/03/2025 07:30
--	Conexión inicial al backend en /run configurada. 24/03/2025 07:25
--	Añadida validación para campos de entrada vacíos. 24/03/2025 07:20
--	Mejora en mensajes de salida vacía o sin solución. 24/03/2025 07:15
--	Diseño mobile responsive del componente CTA. 24/03/2025 07:10
--	Separación de estilos y lógica en archivos independientes. 24/03/2025 07:05
--	Estilo visual del selector de ejercicios mejorado para móviles. 24/03/2025 08:40
--	Se agregó botón para ver solución de cada ejercicio. 24/03/2025 08:35
--	Mostrar créditos actuales del usuario con icono. 24/03/2025 08:30
--	Conexión del backend Prolog con fetch POST en ejecución. 24/03/2025 08:25
--	Control de timeout en ejecución de ejercicios. 24/03/2025 08:20
--	Manejo de errores y mensajes de red en ejecución Prolog. 24/03/2025 08:15
--	Se muestra mensaje ‘Ejecutando…’ con animaciones. 24/03/2025 08:10
--	Estructura del CTA rediseñada en forma de tarjetas. 24/03/2025 08:00
--	Se incluyó video embebido para cada ejercicio. 24/03/2025 07:50
--	Añadido wrapper con padding y márgenes para mayor claridad visual. 24/03/2025 07:40
--	Separación clara entre base de conocimiento, consulta y resultado. 24/03/2025 07:30
--	Diseño responsive mejorado para tablets. 24/03/2025 07:20
--	Añadido botón fantasma para compra de créditos. 24/03/2025 07:15
--	Configurada lógica condicional si usuario no ha iniciado sesión. 24/03/2025 07:10
--	Lógica de redirección si no hay créditos suficientes. 24/03/2025 07:05
--	Instalado e integrado toast para feedback instantáneo. 24/03/2025 07:00
--	Mensajes motivacionales añadidos en ejecuciones. 24/03/2025 06:55
--	Base de datos actualizada para permitir predicciones por ejercicio. 24/03/2025 06:50
--	Añadido soporte para múltiples ejercicios con ID y video. 24/03/2025 06:45
--	Se muestra salida formateada en bloque de código. 24/03/2025 06:40
+- Mejorada UI del componente selector de ejercicios. 24/03/2025 09:05
+- Arreglada navegación entre páginas del dashboard. 24/03/2025 09:10
+- Actualizado diseño de botón de créditos en CTA. 24/03/2025 09:15
+- Ajustado espaciado en formulario de creación de cursos. 24/03/2025 09:20
+- Añadido loader visual durante la ejecución de ejercicios. 24/03/2025 09:25
+- Creado sistema de alerta para errores de conexión. 24/03/2025 09:30
+- Refactorizado componente MaxWidthWrapper para mayor responsividad. 24/03/2025 09:35
+- Integrado sistema de autenticación con Google. 24/03/2025 09:40
+- Actualizado favicon y metadatos del sitio. 24/03/2025 09:45
+- Añadido indicador visual de crédito restante en CTA. 24/03/2025 09:50
+- Implementado botón para mostrar solución del ejercicio. 24/03/2025 09:55
+- Optimizado renderizado de iframe del video. 24/03/2025 10:00
+- Incluido aviso al usuario cuando se queda sin créditos. 24/03/2025 10:05
+- Separado código de lógica de ejecución en función utilitaria. 24/03/2025 10:10
+- Estilizado el pre con resultados Prolog. 24/03/2025 10:15
+- Reorganizado orden de ejercicios en selector. 24/03/2025 10:20
+- Soporte básico para redirección tras login. 24/03/2025 10:25
+- Migrado componente de CardHeader a diseño más limpio. 24/03/2025 10:30
+- Habilitada navegación entre cursos desde el dashboard. 24/03/2025 10:35
+- Limpiado código innecesario en CTA. 24/03/2025 10:40
+- Integrado sistema de gastos de créditos por ejecución de ejercicios. 24/03/2025 10:35
+- Implementado control de sesión para proteger rutas del dashboard. 24/03/2025 10:30
+- Mejorado feedback visual durante carga de ejercicios. 24/03/2025 10:25
+- Añadida validación de campos obligatorios en el formulario de cursos. 24/03/2025 10:20
+- Ajustado diseño responsive del dashboard en móvil. 24/03/2025 10:15
+- Añadido icono de estado para cada intento en la tabla de predicciones. 24/03/2025 10:10
+- Sincronización automática de predicciones tras ejecución. 24/03/2025 10:00
+- Estilizadas cabeceras de sección para mayor claridad visual. 24/03/2025 09:50
+- Añadida barra de progreso durante subida de imágenes (deprecated). 24/03/2025 09:40
+- Corregido bug que impedía ejecutar consulta con valores numéricos. 24/03/2025 09:35
+- Simplificada estructura del objeto studio al eliminar imágenes. 24/03/2025 09:30
+- Eliminado código muerto relacionado con previews de imagen. 24/03/2025 09:25
+- Añadido mensaje de bienvenida al acceder al dashboard. 24/03/2025 09:20
+- Mejorada accesibilidad en botones del formulario. 24/03/2025 09:15
+- Separados estilos de botones por tipo de acción. 24/03/2025 09:10
+- Establecida altura mínima en campos de texto. 24/03/2025 09:05
+- Ajustado margen inferior en elementos del CTA. 24/03/2025 09:00
+- Configurado hook personalizado para obtener créditos del usuario. 24/03/2025 08:55
+- Añadido soporte para múltiples resoluciones de pantalla. 24/03/2025 08:50
+- Configurado favicon personalizado para el proyecto. 24/03/2025 08:45
+- Añadido sistema de selector de ejercicios en componente CTA. 24/03/2025 08:40
+- Integración inicial de vídeos explicativos en ejercicios. 24/03/2025 08:35
+- Diseño inicial del componente CTA con estructura de base de conocimiento y consulta. 24/03/2025 08:30
+- Agregado botón para mostrar solución del ejercicio. 24/03/2025 08:25
+- Implementada conexión con backend Prolog para resolver consultas. 24/03/2025 08:20
+- Agregado control de créditos para ejecución de ejercicios. 24/03/2025 08:15
+- Configurado manejo de errores de red y timeout en CTA. 24/03/2025 08:10
+- Creado componente visual para mostrar resultados con estilo terminal. 24/03/2025 08:05
+- Implementada lógica para mostrar mensajes motivacionales mientras se ejecuta. 24/03/2025 08:00
+- Añadido componente <MaxWidthWrapper> para alinear contenido en pantallas grandes. 24/03/2025 07:55
+- Creado hook para obtener sesión del usuario desde NextAuth. 24/03/2025 07:50
+- Estilizado botón de créditos con icono de monedas. 24/03/2025 07:45
+- Implementado toast de éxito tras gastar crédito correctamente. 24/03/2025 07:40
+- Agregado feedback visual para mostrar solución al ejercicio. 24/03/2025 07:35
+- Primera versión del componente CTA completada y funcional. 24/03/2025 07:30
+- Conexión inicial al backend en /run configurada. 24/03/2025 07:25
+- Añadida validación para campos de entrada vacíos. 24/03/2025 07:20
+- Mejora en mensajes de salida vacía o sin solución. 24/03/2025 07:15
+- Diseño mobile responsive del componente CTA. 24/03/2025 07:10
+- Separación de estilos y lógica en archivos independientes. 24/03/2025 07:05
+- Estilo visual del selector de ejercicios mejorado para móviles. 24/03/2025 08:40
+- Se agregó botón para ver solución de cada ejercicio. 24/03/2025 08:35
+- Mostrar créditos actuales del usuario con icono. 24/03/2025 08:30
+- Conexión del backend Prolog con fetch POST en ejecución. 24/03/2025 08:25
+- Control de timeout en ejecución de ejercicios. 24/03/2025 08:20
+- Manejo de errores y mensajes de red en ejecución Prolog. 24/03/2025 08:15
+- Se muestra mensaje ‘Ejecutando…’ con animaciones. 24/03/2025 08:10
+- Estructura del CTA rediseñada en forma de tarjetas. 24/03/2025 08:00
+- Se incluyó video embebido para cada ejercicio. 24/03/2025 07:50
+- Añadido wrapper con padding y márgenes para mayor claridad visual. 24/03/2025 07:40
+- Separación clara entre base de conocimiento, consulta y resultado. 24/03/2025 07:30
+- Diseño responsive mejorado para tablets. 24/03/2025 07:20
+- Añadido botón fantasma para compra de créditos. 24/03/2025 07:15
+- Configurada lógica condicional si usuario no ha iniciado sesión. 24/03/2025 07:10
+- Lógica de redirección si no hay créditos suficientes. 24/03/2025 07:05
+- Instalado e integrado toast para feedback instantáneo. 24/03/2025 07:00
+- Mensajes motivacionales añadidos en ejecuciones. 24/03/2025 06:55
+- Base de datos actualizada para permitir predicciones por ejercicio. 24/03/2025 06:50
+- Añadido soporte para múltiples ejercicios con ID y video. 24/03/2025 06:45
+- Se muestra salida formateada en bloque de código. 24/03/2025 06:40
