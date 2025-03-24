@@ -25,7 +25,7 @@ export function ComparisonTable({ pricingData, locale }) {
         <TableRow>
           <TableCell>{t('price_per')}</TableCell>
           {pricingData.map((plan, index) => (
-            <TableCell key={index}>${(plan.price / plan.quantity).toFixed(2)}</TableCell>
+            <TableCell key={index}>${(plan.price / plan.quantity).toFixed(5)}</TableCell>
           ))}
         </TableRow>
       </TableBody>
