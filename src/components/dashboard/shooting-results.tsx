@@ -106,7 +106,7 @@ export function ShootingResults({ predictions: initialPredictions, studioId, onS
                         variant="default"
                     >
                         <Camera className="mr-2 size-4" />
-                        {t("run")}
+                        {t("shoot")}
                     </Button>
                 </EmptyPlaceholder>
             )}
