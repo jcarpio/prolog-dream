@@ -152,9 +152,16 @@
   "button": "Start",
   "cool_button": "Start your mental training now!",
   "cool_title": "Learn to program without programming from your phone",
-  "shoot_started_successfully_1_credit_used": "Exercise started successfully. 1 credit used."
-},
-  "cool_description": "Experience TruePowers.org. Solve complex problems with simple rules and be amazed at what you're capable of."
+  "shoot_started_successfully_1_credit_used": "Exercise started successfully. 1 credit used.",
+  "cool_description": "Experience TruePowers.org. Solve complex problems with simple rules and be amazed at what you're capable of.",
+  "select_exercise": "Choose an exercise",
+  "instructions": "Instructions",
+  "knowledge_base": "Knowledge base",
+  "query": "Query",
+  "result": "Result",
+  "solution": "Solution",
+  "show_solution": "Show solution",
+  "credits": "Credits"
 },
   "BentoGrid": {
     "customizable_prompts": "Customizable challenges",
