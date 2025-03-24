@@ -161,9 +161,43 @@
   "result": "Result",
   "solution": "Solution",
   "show_solution": "Show solution",
-  "credits": "Credits"
+  "credits": "Credits",
+  "motivational_phrases": [
+    "Take these seconds, breathe.",
+    "You already have it all.",
+    "You are whole and complete.",
+    "Breathe, happiness is yours.",
+    "Breathe, you are light.",
+    "Love is what you are.",
+    "Everything is perfect now.",
+    "You are deeply supported.",
+    "Peace is within you.",
+    "The universe holds you."
+  ],
+  "running": "⏳ Running...",
+  "error_prefix": "⚠️ Error:",
+  "timeout": "⏱️ Timeout reached. Try again.",
+  "empty_output": "(empty output)",
+  "exercises": {
+    "1": {
+      "label": "🧩 1: Grandpa",
+      "instructions": "Find out who is the grandfather of Luis.",
+      "facts": "father(juan, maria).\nfather(juan, pedro).\nfather(pedro, luis).\ngrandfather(X, Y) :- father(X, Z), father(Z, Y).",
+      "query": "grandfather(X, luis).",
+      "solution": "X = juan.",
+      "video": "https://www.youtube.com/embed/RSv9aSsg2wc?start=1405"
+    },
+    "2": {
+      "label": "🧩 2: Natural",
+      "instructions": "Complete the code to define natural numbers recursively.",
+      "facts": "natural(1).\nnatural(N):-   natural(   ).",
+      "query": "natural(5).",
+      "solution": "natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).",
+      "video": "https://www.youtube.com/embed/RSv9aSsg2wc?start=129"
+    }
+  }
 },
-  "BentoGrid": {
+"BentoGrid": {
     "customizable_prompts": "Customizable challenges",
     "secure_by_design": "Secure by design",
     "secure_by_design_description": "Your progress and data are protected with secure technology so you can focus solely on learning.",
