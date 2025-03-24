@@ -86,7 +86,7 @@ TruePowers.org is built on top of [next-saas-stripe-starter](https://github.com/
 
 TruePowers.org is open source so you can contribute, modify, and extend it. Our mission is to make logical programming accessible to everyone.
 
-If you need professional support, training or custom implementation, contact us at support@truepowers.org
+If you need professional support, training or custom implementation, contact us at support@enkire.com
 
 ## Get Involved
 
