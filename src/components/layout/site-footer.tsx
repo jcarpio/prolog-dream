@@ -64,7 +64,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
               target="_blank"
               className="font-medium underline underline-offset-4"
             >
-              UllrAI Lab
+              Enkire
             </Link>
           </div>
 
