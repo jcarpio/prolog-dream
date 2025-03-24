@@ -5,7 +5,7 @@ export const pricingData = [
     quantity: 1000,
   },
   {
-    id: 10,
+    id: 2,
     price: 10,
     quantity: 10000,
   },
