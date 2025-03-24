@@ -153,7 +153,15 @@
   "cool_button": "¡Empieza tu entrenamiento mental ahora!",
   "cool_title": "Aprende a programar sin programar desde tu móvil",
    "shoot_started_successfully_1_credit_used": "Ejercicio iniciado con éxito. 1 crédito utilizado.",
-  "cool_description": "Experimenta TruePowers.org. Resuelve problemas complejos con reglas simples y sorpréndete de lo que eres capaz de lograr."
+  "cool_description": "Experimenta TruePowers.org. Resuelve problemas complejos con reglas simples y sorpréndete de lo que eres capaz de lograr.",
+  "select_exercise": "Elige un ejercicio",
+  "instructions": "Instrucciones",
+  "knowledge_base": "Base de conocimiento",
+  "query": "Consulta",
+  "result": "Resultado",
+  "solution": "Solución",
+  "show_solution": "Mostrar solución",
+  "credits": "Créditos"
 },
 "BentoGrid": {
   "customizable_prompts": "Retos personalizables",
