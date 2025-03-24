@@ -114,3 +114,23 @@ CHANGES_es.txt
 - Base de datos actualizada para permitir predicciones por ejercicio. 24/03/2025 06:50
 - Añadido soporte para múltiples ejercicios con ID y video. 24/03/2025 06:45
 - Se muestra salida formateada en bloque de código. 24/03/2025 06:40
+- Añadido botón en la página principal que muestra mensaje de crédito descontado. 24/03/2025 08:05
+- Comprobación de créditos implementada antes de ejecutar ejercicios en CTA. 24/03/2025 08:00
+- Integrado el componente ShootModal como referencia para control de créditos. 24/03/2025 07:55
+- Añadido video explicativo al selector de ejercicios en la pantalla principal. 24/03/2025 07:50
+- Mostrada solución correcta al seleccionar ejercicio. 24/03/2025 07:45
+- Selector de ejercicios con carga automática del código base. 24/03/2025 07:40
+- Aumentado tamaño de áreas de texto con líneas visibles. 24/03/2025 07:35
+- Añadido número de línea y altura personalizada para base de conocimiento, consulta y resultados. 24/03/2025 07:30
+- Migrado componente CTA a diseño interactivo de ejercicios. 24/03/2025 07:25
+- Establecida lógica para insertar automáticamente enunciados y código base al seleccionar un ejercicio. 24/03/2025 07:20
+- Integrado backend de Prolog con ejecución en botón principal. 24/03/2025 07:15
+- Adaptado botón de ejecución para reutilizar lógica de ShootModal. 24/03/2025 07:10
+- Sección de ejercicios integrada directamente en la página principal. 24/03/2025 07:05
+- Añadida lógica condicional para redirigir según créditos y login. 24/03/2025 07:00
+- Diseño de CTA adaptado para incluir selector de ejercicios. 24/03/2025 06:55
+- Añadida tabla predictions al registrar intentos de ejercicios. 24/03/2025 06:50
+- Lógica de descuento de créditos reutilizada de aplicación matriz. 24/03/2025 06:45
+- Refactorizada funcionalidad de ejecución de ejercicios desde /dashboard/studio/[id]/run. 24/03/2025 06:40
+- Establecida integración con backend externo de Prolog. 24/03/2025 06:35
+- Mensajes de resultado dinámicos con frases motivacionales. 24/03/2025 06:30
