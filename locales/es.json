@@ -213,11 +213,11 @@
   "clay": "Artesano mental"
 },
 "NavBar": {
-  "dashboard": "Dashboard",
-  "sign_in": "Sign in",
+  "dashboard": "Panel de control",
+  "sign_in": "Iniciar sesión",
   "blog": "Blog",
-  "generator-styles": "Styles",
-  "pricing": "Pricing"
+  "generator-styles": "Estilos",
+  "pricing": "Precios"
 },
 "HeadshotStylePage": {
   "label": "Estilos de TruePowers.org",
