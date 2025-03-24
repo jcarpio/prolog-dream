@@ -31,6 +31,7 @@ const exercises = [
     facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
     query: "abuelo(X, luis).",
     solution: "X = juan.",
+    instructions: "Define las reglas necesarias para encontrar al abuelo de Luis.",
     video: "https://www.youtube.com/embed/RSv9aSsg2wc?start=1405"
   },
   {
@@ -39,6 +40,7 @@ const exercises = [
     facts: `natural(1).\nnatural(N):-   natural(   ).`,
     query: "natural(5).",
     solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`,
+    instructions: "Completa la definición del número natural usando recursividad.",
     video: "https://www.youtube.com/embed/RSv9aSsg2wc"
   }
 ];
@@ -52,6 +54,7 @@ export default function CTA() {
   const [query, setQuery] = useState(exercises[0].query);
   const [output, setOutput] = useState("");
   const [solution, setSolution] = useState("");
+  const [instructions, setInstructions] = useState(exercises[0].instructions);
   const [userCredits, setUserCredits] = useState<number | null>(null);
   const [selectedVideo, setSelectedVideo] = useState(exercises[0].video);
 
@@ -111,6 +114,7 @@ export default function CTA() {
     if (selected) {
       setFacts(selected.facts);
       setQuery(selected.query);
+      setInstructions(selected.instructions);
       setSolution("");
       setOutput("");
       setSelectedVideo(selected.video);
@@ -149,7 +153,7 @@ export default function CTA() {
             )}
 
             <div className="mb-4">
-              <label className="block mb-2 font-bold">📚 Elige un ejercicio:</label>
+              <label className="block mb-2 font-bold">📚 {t("select_exercise")}</label>
               <select
                 className="w-full p-2 rounded border font-bold"
                 onChange={handleExerciseChange}
@@ -160,7 +164,14 @@ export default function CTA() {
               </select>
             </div>
 
-            <label className="block mb-2 font-bold">🔧 Base de conocimiento:</label>
+            <div className="mb-6">
+              <label className="block mb-2 font-bold">📘 {t("instructions")}</label>
+              <p className="text-md p-2 rounded bg-muted text-muted-foreground font-medium">
+                {instructions}
+              </p>
+            </div>
+
+            <label className="block mb-2 font-bold">🔧 {t("knowledge_base")}</label>
             <textarea
               className="w-full p-2 mb-4 rounded border font-mono font-bold"
               rows={15}
@@ -168,7 +179,7 @@ export default function CTA() {
               onChange={(e) => setFacts(e.target.value)}
             />
 
-            <label className="block mb-2 font-bold">❓ Consulta:</label>
+            <label className="block mb-2 font-bold">❓ {t("query")}</label>
             <textarea
               className="w-full p-2 mb-4 rounded border font-mono font-bold"
               rows={5}
@@ -181,21 +192,21 @@ export default function CTA() {
                 {t("button")} ▶️
               </Button>
               <Button size="lg" variant="secondary" onClick={handleShowSolution}>
-                Mostrar solución ✅
+                {t("show_solution")}
               </Button>
               <Button size="sm" variant="ghost" onClick={() => router.push("/pricing")}>
-                <Coins className="mr-2 size-4" /> Créditos: {userCredits ?? "-"}
+                <Coins className="mr-2 size-4" /> {t("credits")}: {userCredits ?? "-"}
               </Button>
             </div>
 
-            <label className="block mb-2 font-bold">📤 Resultado:</label>
+            <label className="block mb-2 font-bold">📤 {t("result")}</label>
             <pre className="w-full p-3 bg-black text-green-400 rounded font-mono overflow-y-auto" style={{ height: '200px' }}>
               {output || "(salida vacía)"}
             </pre>
 
             {solution && (
               <>
-                <label className="block mt-6 mb-2 font-bold text-blue-900">✅ Solución:</label>
+                <label className="block mt-6 mb-2 font-bold text-blue-900">✅ {t("solution")}</label>
                 <pre className="w-full p-3 bg-blue-100 text-blue-800 rounded font-mono overflow-y-auto">
                   {solution}
                 </pre>
@@ -207,3 +218,4 @@ export default function CTA() {
     </section>
   );
 }
+
