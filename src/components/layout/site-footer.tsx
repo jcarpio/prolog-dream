@@ -57,15 +57,6 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
 
             </Link>
             <span className="mr-2"> , </span>
-
-            <span className="font-medium">{t('open_source_by')}{" "}</span>
-            <Link
-              href="https://enkire.com"
-              target="_blank"
-              className="font-medium underline underline-offset-4"
-            >
-              Enkire
-            </Link>
           </div>
 
           <div className="flex items-center gap-3">
