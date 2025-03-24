@@ -94,11 +94,11 @@ export function ShootingResults({ predictions: initialPredictions, studioId, onS
             ) : (
                 <EmptyPlaceholder className="min-h-[80vh]">
                     <EmptyPlaceholder.Icon name="photo" />
-                    <EmptyPlaceholder.Title>{t("ready_to_practice")}</EmptyPlaceholder.Title>
+                    <EmptyPlaceholder.Title>{t("ready_to_shoot")}</EmptyPlaceholder.Title>
                     <EmptyPlaceholder.Description>
-                        {t("your_course_created_successfully")}
+                        {t("your_studio_created_successfully")}
                         <br />
-                        {t("click_run_below_to_start_your_first_exercise")}
+                        {t("click_run_below_to_start_your_first_shoot")}
                     </EmptyPlaceholder.Description>
                     {/* ✅ Ahora el botón redirige correctamente al entorno de ejercicios */}
                     <Button 
