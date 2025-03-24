@@ -11,44 +11,31 @@ import { useSession } from "next-auth/react";
 import { toast } from "sonner";
 import { Coins } from "lucide-react";
 
-const motivationalPhrases = [
-  "Take these seconds, breathe.",
-  "You already have it all.",
-  "You are whole and complete.",
-  "Breathe, happiness is yours.",
-  "Breathe, you are light.",
-  "Love is what you are.",
-  "Everything is perfect now.",
-  "You are deeply supported.",
-  "Peace is within you.",
-  "The universe holds you."
-];
-
-const exercises = [
-  {
-    id: "1",
-    label: "🧩 1: Abuelo",
-    facts: `padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).`,
-    query: "abuelo(X, luis).",
-    solution: "X = juan.",
-    instructions: "Define las reglas necesarias para encontrar al abuelo de Luis.",
-    video: "https://www.youtube.com/embed/RSv9aSsg2wc?start=1405"
-  },
-  {
-    id: "2",
-    label: "🧩 2: Natural",
-    facts: `natural(1).\nnatural(N):-   natural(   ).`,
-    query: "natural(5).",
-    solution: `natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).`,
-    instructions: "Completa la definición del número natural usando recursividad.",
-    video: "https://www.youtube.com/embed/RSv9aSsg2wc"
-  }
-];
-
 export default function CTA() {
   const t = useTranslations("CTA");
   const router = useRouter();
   const { data: session } = useSession();
+
+  const exercises = [
+    {
+      id: "1",
+      label: t("exercises.1.label"),
+      facts: t("exercises.1.facts"),
+      query: t("exercises.1.query"),
+      solution: t("exercises.1.solution"),
+      instructions: t("exercises.1.instructions"),
+      video: t("exercises.1.video"),
+    },
+    {
+      id: "2",
+      label: t("exercises.2.label"),
+      facts: t("exercises.2.facts"),
+      query: t("exercises.2.query"),
+      solution: t("exercises.2.solution"),
+      instructions: t("exercises.2.instructions"),
+      video: t("exercises.2.video"),
+    },
+  ];
 
   const [facts, setFacts] = useState(exercises[0].facts);
   const [query, setQuery] = useState(exercises[0].query);
@@ -65,20 +52,21 @@ export default function CTA() {
   }, [session]);
 
   useEffect(() => {
-    if (output === "⏳ Ejecutando...") {
+    if (output.startsWith(t("running"))) {
       const interval = setInterval(() => {
-        const random = Math.floor(Math.random() * motivationalPhrases.length);
-        setOutput(`⏳ Ejecutando...\n${motivationalPhrases[random]}`);
+        const phrases = t.raw("motivational_phrases") as string[];
+        const random = Math.floor(Math.random() * phrases.length);
+        setOutput(`${t("running")}\n${phrases[random]}`);
       }, 2000);
       return () => clearInterval(interval);
     }
-  }, [output]);
+  }, [output, t]);
 
   const handleRun = async () => {
     if (!session) return router.push("/login");
     if (userCredits !== null && userCredits <= 0) return router.push("/pricing");
 
-    setOutput("⏳ Ejecutando...");
+    setOutput(t("running"));
     setSolution("");
 
     const controller = new AbortController();
@@ -89,7 +77,7 @@ export default function CTA() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ facts, query }),
-        signal: controller.signal
+        signal: controller.signal,
       });
 
       clearTimeout(timeoutId);
@@ -99,12 +87,12 @@ export default function CTA() {
       setUserCredits(newCredits);
       toast.success(t("shoot_started_successfully_1_credit_used"));
 
-      setOutput(data.output || "⚠️ Error: " + (data.error || "Unknown"));
-    } catch (err) {
-      if (err.name === 'AbortError') {
-        setOutput("⏱️ Timeout reached. Try again.");
+      setOutput(data.output || `${t("error_prefix")} ${data.error || "Unknown"}`);
+    } catch (err: any) {
+      if (err.name === "AbortError") {
+        setOutput(t("timeout"));
       } else {
-        setOutput("⚠️ Network error: " + err.message);
+        setOutput(`${t("error_prefix")} ${err.message}`);
       }
     }
   };
@@ -194,14 +182,14 @@ export default function CTA() {
               <Button size="lg" variant="secondary" onClick={handleShowSolution}>
                 {t("show_solution")}
               </Button>
-              <Button size="sm" variant="ghost" onClick={() => router.push("/pricing")}>
+              <Button size="sm" variant="ghost" onClick={() => router.push("/pricing")}>                
                 <Coins className="mr-2 size-4" /> {t("credits")}: {userCredits ?? "-"}
               </Button>
             </div>
 
             <label className="block mb-2 font-bold">📤 {t("result")}</label>
             <pre className="w-full p-3 bg-black text-green-400 rounded font-mono overflow-y-auto" style={{ height: '200px' }}>
-              {output || "(salida vacía)"}
+              {output || t("empty_output")}
             </pre>
 
             {solution && (
