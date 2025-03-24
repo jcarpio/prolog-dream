@@ -231,3 +231,36 @@ CHANGES_es.txt
 -	Ajustado layout de la tarjeta Prolog con MaxWidthWrapper. 23/03/2025 19:20
 -	Ejercicio inicial con abuelo/2 como base de ejemplo cargado. 23/03/2025 19:10
 -	Primera integración visual del componente CTA en la home. 23/03/2025 19:00
+-	Primera versión del backend funcionando con endpoint /run. 23/03/2025 18:55
+-	Backend preparado para recibir facts y query en JSON. 23/03/2025 18:50
+-	Ruta /run responde con resultado en formato texto plano. 23/03/2025 18:45
+-	Integración de CORS y manejo de errores básicos en backend. 23/03/2025 18:40
+-	Estilos iniciales del componente CTA ajustados. 23/03/2025 18:35
+-	Botón de ejecutar consulta con estilo hover. 23/03/2025 18:30
+-	Estructura básica del componente CTA con título e inputs. 23/03/2025 18:25
+-	Placeholder de facts con ejemplo de relaciones padre/hijo. 23/03/2025 18:20
+-	Placeholder de query inicial con abuelo(X, luis). 23/03/2025 18:15
+-	Preparación de lista de frases motivacionales. 23/03/2025 18:10
+-	Hook de setInterval configurado para mensajes de espera. 23/03/2025 18:05
+-	Instalación de librerías necesarias para servidor Express. 23/03/2025 18:00
+-	Servidor backend levantado en puerto 3000. 23/03/2025 17:55
+-	Generado archivo temporal query_*.pl para cada consulta. 23/03/2025 17:50
+-	Comando swipl -q -f  usado para evaluar Prolog. 23/03/2025 17:45
+-	Primera respuesta Prolog obtenida desde el backend. 23/03/2025 17:40
+-	Integración de frontend y backend con llamada fetch. 23/03/2025 17:35
+-	Validación visual de resultados en consola. 23/03/2025 17:30
+-	Verificación de errores de red en fetch. 23/03/2025 17:25
+-	Respuesta ‘false.’ cuando no hay solución en Prolog. 23/03/2025 17:20
+-	Creado botón para ejecutar consulta en frontend. 23/03/2025 17:15
+-	Instalado entorno de pruebas SWI-Prolog. 23/03/2025 17:10
+-	Test local con consulta padre(juan, maria). 23/03/2025 17:05
+-	Primera estructura HTML con inputs y botón. 23/03/2025 17:00
+-	Creado archivo CTA.tsx en frontend. 23/03/2025 16:55
+-	Inicialización del proyecto Prolog App frontend. 23/03/2025 16:50
+-	Inicialización del backend con Express. 23/03/2025 16:45
+-	Config inicial de ESLint y Prettier. 23/03/2025 16:40
+-	Definición de estructura del repositorio. 23/03/2025 16:35
+-	Instalación de dependencias básicas: React, Tailwind, Express. 23/03/2025 16:30
+-	Primera planificación de diseño de app educativa. 23/03/2025 16:20
+-	Creación de README con objetivos iniciales del proyecto. 23/03/2025 16:15
+-	Inicio del repositorio en GitHub: truepowers.org. 23/03/2025 16:10
