@@ -1,6 +1,6 @@
 import { DashboardHeader } from "@/components/dashboard/header";
 import { Separator } from "@/components/ui/separator";
-import { CTA } from "@/components/cta/CTA";
+import CTA from "@/components/sections/CTA";
 import { auth } from "@/auth";
 import { db } from "@/lib/db";
 import { redirect } from "next/navigation";
