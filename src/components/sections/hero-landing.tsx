@@ -12,7 +12,7 @@ export default function HeroLanding() {
     <section className="space-y-6 py-12 sm:py-20 lg:py-20">
       <div className="container flex max-w-5xl flex-col items-center gap-5 text-center">
         <Link
-          href="https://github.com/UllrAI/HeadShots.fun"
+          href="https://github.com/jcarpio/prolog-dream"
           className={cn(
             buttonVariants({ variant: "outline", size: "sm", rounded: "full" }),
             "px-4",
@@ -22,7 +22,7 @@ export default function HeroLanding() {
           <span className="mr-2">
             🚀
           </span>
-          HeadShots.fun is open source on
+          TruePowers.org is open source on
           <Icons.github className="mx-1 size-3" />
           <span className="hidden md:inline">GitHub now!</span>
         </Link>
