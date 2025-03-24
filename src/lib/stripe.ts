@@ -22,7 +22,7 @@ export async function createCheckoutSession(
         price_data: {
           currency: 'usd',
           product_data: {
-            name: `${quantity} Credits - HeadShots.fun`,
+            name: `${quantity} Credits - TruePowers.org`,
             description: description,
           },
           unit_amount: Math.round(amount * 100), // ensure amount is an integer
