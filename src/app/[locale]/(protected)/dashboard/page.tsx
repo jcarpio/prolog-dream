@@ -64,9 +64,9 @@ export default function DashboardPage() {
     fetchStudios();
   }, [pathname, searchParams]);
 
-  const handleRowClick = (studioId: string) => {
-    router.push(`/dashboard/studio/${studioId}`);
-  };
+const handleRowClick = (studioId: string) => {
+  router.push(`/dashboard/studio/${studioId}/run`);
+};
 
   return (
     <div className="container mx-auto">
