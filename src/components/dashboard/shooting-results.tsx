@@ -98,7 +98,7 @@ export function ShootingResults({ predictions: initialPredictions, studioId, onS
                     <EmptyPlaceholder.Description>
                         {t("your_studio_created_successfully")}
                         <br />
-                        {t("click_run_below_to_start_your_first_shoot")}
+                        {t("click_shoot_below_to_begin_creating_your_first_headshot")}
                     </EmptyPlaceholder.Description>
                     {/* ✅ Ahora el botón redirige correctamente al entorno de ejercicios */}
                     <Button 
