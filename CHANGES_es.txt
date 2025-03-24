@@ -264,3 +264,42 @@ CHANGES_es.txt
 -	Primera planificación de diseño de app educativa. 23/03/2025 16:20
 -	Creación de README con objetivos iniciales del proyecto. 23/03/2025 16:15
 -	Inicio del repositorio en GitHub: truepowers.org. 23/03/2025 16:10
+-	Estructurada la carpeta /src con separación entre frontend y backend. 23/03/2025 16:05
+-	Configurado entorno de desarrollo local con Vite + Tailwind. 23/03/2025 16:00
+-	Añadido archivo .env.example con variables base. 23/03/2025 15:55
+-	Decisión de usar SWI-Prolog como motor de razonamiento. 23/03/2025 15:50
+-	Configurada estrategia de ejecución de Prolog vía CLI. 23/03/2025 15:45
+-	Estudio de otras apps que enseñan Prolog para inspirarse. 23/03/2025 15:40
+-	Esquema inicial de uso de créditos como modelo de negocio. 23/03/2025 15:35
+-	Boceto de flujo de usuario desde landing hasta ejercicios. 23/03/2025 15:30
+-	Decisión de implementar frases motivacionales durante espera. 23/03/2025 15:25
+-	Diseño de esquema de ejercicios: facts + query + solución. 23/03/2025 15:20
+-	Propuesta de nombre para la app: TruePowers. 23/03/2025 15:15
+-	Búsqueda y compra del dominio truepowers.org. 23/03/2025 15:10
+-	Creación de la primera landing en Next.js. 23/03/2025 15:00
+-	Config inicial de TypeScript y Tailwind CSS. 23/03/2025 14:55
+-	Estructura inicial del proyecto en Vercel. 23/03/2025 14:50
+-	Configuración de NextAuth para autenticación. 23/03/2025 14:45
+-	Primera conexión de base de datos (Prisma + SQLite). 23/03/2025 14:40
+-	Definido modelo User y Credits en Prisma. 23/03/2025 14:35
+-	Añadido sistema de sesión con JWT. 23/03/2025 14:30
+-	Decisión de usar créditos como unidad de progreso. 23/03/2025 14:25
+-	Primer prototipo visual en Figma. 23/03/2025 14:20
+-	Prueba inicial de ejecución manual de SWI-Prolog con facts. 23/03/2025 14:15
+-	Creado logotipo simple para TruePowers. 23/03/2025 14:10
+-	Exploración de estrategias para enseñar lógica de forma intuitiva. 23/03/2025 14:00
+-	Borrador de estructura de curso basado en Prolog. 23/03/2025 13:50
+-	Diseñado sistema gamificado para reforzar aprendizaje. 23/03/2025 13:40
+-	Exploración de integración con Exercism y dev.to. 23/03/2025 13:30
+-	Planificación del sistema de mentoría. 23/03/2025 13:20
+-	Revisión de requisitos técnicos para Vercel + backend personalizado. 23/03/2025 13:15
+-	Decisión de usar fetch para comunicar frontend y backend. 23/03/2025 13:10
+-	Definido el lema: “Programar sin programar”. 23/03/2025 13:05
+-	Redactado el manifiesto educativo del proyecto. 23/03/2025 13:00
+-	Primera lluvia de ideas sobre ejercicios básicos de Prolog. 23/03/2025 12:45
+-	Selección del stack de tecnologías frontend. 23/03/2025 12:30
+-	Estudio de formatos de enseñanza de lógica computacional. 23/03/2025 12:00
+-	Confirmación de que el enfoque será global y móvil-first. 23/03/2025 11:45
+-	Revisión de apps de enseñanza como SoloLearn y Brilliant. 23/03/2025 11:30
+-	Creación del primer documento de visión del producto. 23/03/2025 11:15
+-	Inicio formal del proyecto TruePowers como app educativa. 23/03/2025 11:00
