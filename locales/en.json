@@ -152,6 +152,8 @@
   "button": "Start",
   "cool_button": "Start your mental training now!",
   "cool_title": "Learn to program without programming from your phone",
+  "shoot_started_successfully_1_credit_used": "Exercise started successfully. 1 credit used."
+},
   "cool_description": "Experience TruePowers.org. Solve complex problems with simple rules and be amazed at what you're capable of."
 },
   "BentoGrid": {
@@ -376,9 +378,6 @@
   "failed": "Failed",
   "our_privacy_policy": "Our privacy policy",
   "if_you_have_any_questions_about_the_photos": "If you have questions about your data privacy, check out:"
-},
-"CTA": {
-   "shoot_started_successfully_1_credit_used": "Exercise started successfully. 1 credit used."
 },
 "Credits": {
   "credits": "Credits",
