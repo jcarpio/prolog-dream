@@ -437,5 +437,27 @@
     "type": "Tipo",
     "amount": "Cantidad",
     "date": "Fecha"
+},
+"Settings": {
+    "settings": "Configuración",
+    "manage_account_settings": "Gestiona la configuración de tu cuenta.",
+    "your_name": "Tu Nombre",
+    "please_enter_a_display_name_you_are_comfortable_with": "Por favor, introduce un nombre con el que te sientas cómodo.",
+    "max_32_characters": "Máx. 32 caracteres",
+    "save": "Guardar",
+    "changes": "Cambios",
+    "your_name_has_been_updated": "Tu nombre ha sido actualizado.",
+    "your_name_was_not_updated_please_try_again": "Tu nombre no se actualizó. Por favor, inténtalo de nuevo.",
+    "something_went_wrong": "Algo salió mal.",
+    "your_avatar": "Tu Avatar",
+    "please_enter_a_display_avatar_you_are_comfortable_with": "Por favor, introduce un avatar con el que te sientas cómodo.",
+    "max_255_characters": "Máx. 255 caracteres",
+    "your_avatar_has_been_updated": "Tu avatar ha sido actualizado.",
+    "your_avatar_was_not_updated_please_try_again": "Tu avatar no se actualizó. Por favor, inténtalo de nuevo.",
+    "something_went_wrong_with_avatar_update": "Algo salió mal al actualizar el avatar.",
+    "delete_account": "Eliminar Cuenta",
+    "this_is_a_danger_zone_be_careful": "Esta es una zona de peligro - ¡Ten cuidado!",
+    "are_you_sure": "¿Estás seguro?",
+    "permanently_delete_your_account_and_credits": "Elimina permanentemente tu cuenta de {siteTitle} y tus créditos. Esta acción no se puede deshacer - procede con precaución."
 }
 }
