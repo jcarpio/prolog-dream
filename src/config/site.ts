@@ -53,7 +53,8 @@ export const footerLinks: SidebarNavItem[] = [
   {
     title: "Enkire Products",
     items: [
-      { title: "DreamBez", href: "https://dreambez.com" },
+      { title: "DreamBez.com", href: "https://dreambez.com" },
+      { title: "TruePowers.org", href: "https://truepowers.org" },
 
     ],
   },
