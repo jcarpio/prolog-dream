@@ -93,44 +93,30 @@ const handleRowClick = (studioId: string) => {
             <CardDescription>{t('a_list_of_all_your_created_studios')}</CardDescription>
           </CardHeader>
           <CardContent>
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead>{t('name')}</TableHead>
-                  <TableHead className="hidden md:table-cell">{t('type')}</TableHead>
-                  <TableHead>{t('headshots')}</TableHead>
-                  <TableHead className="hidden md:table-cell">{t('created_at')}</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                  {studios.map((studio) => (
-                    <TableRow 
-                      key={studio.id} 
-                      className="cursor-pointer transition-colors hover:bg-muted/50"
-                      onClick={() => handleRowClick(studio.id)}
-                    >
-                      <TableCell className="font-medium">
-                        {studio.name}
-                      </TableCell>
-                      <TableCell className="hidden md:table-cell">
-                        <div className="flex items-center">
-                          <Icons.type className="mr-2 size-4" />
-                          <Badge variant="outline">{studio.type}</Badge>
-                        </div>
-                      </TableCell>
-                      <TableCell>
-                        <div className="flex items-center">
-                          <Icons.image className="mr-2 size-4" />
-                          {studio.predictions.length}
-                        </div>
-                      </TableCell>
-                      <TableCell className="hidden md:table-cell">
-                        {new Date(studio.createdAt).toLocaleDateString()}
-                      </TableCell>
-                    </TableRow>
-                  ))}
-                </TableBody>
-            </Table>
+        <Table>
+  <TableHeader>
+    <TableRow>
+      <TableHead>{t('name')}</TableHead>
+      <TableHead className="hidden md:table-cell">{t('created_at')}</TableHead>
+    </TableRow>
+  </TableHeader>
+  <TableBody>
+    {studios.map((studio) => (
+      <TableRow
+        key={studio.id}
+        className="cursor-pointer transition-colors hover:bg-muted/50"
+        onClick={() => handleRowClick(studio.id)}
+      >
+        <TableCell className="font-medium">
+          {studio.name}
+        </TableCell>
+        <TableCell className="hidden md:table-cell">
+          {new Date(studio.createdAt).toLocaleDateString()}
+        </TableCell>
+      </TableRow>
+    ))}
+  </TableBody>
+</Table>
           </CardContent>
         </Card>
       ) : (
