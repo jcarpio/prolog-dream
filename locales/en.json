@@ -153,20 +153,20 @@
   "cool_title": "Learn to program without programming from your phone",
   "cool_description": "Experience TruePowers.org. Solve complex problems with simple rules and be amazed at what you're capable of."
 },
-"BentoGrid": {
-    "customizable_prompts": "Customizable Prompts",
-    "secure_by_design": "Secure by Design",
-    "secure_by_design_description": "Your data is protected with top-notch security, giving you peace of mind.",
-    "usually_in_10_seconds": "Usually in 10 seconds",
-    "lightning_fast_results": "Lightning-Fast Results",
-    "lightning_fast_results_description": "Get AI-generated headshots in 10 seconds.",
-    "professional_quality": "Professional Quality",
-    "professional_quality_description": "AI-generated headshots.fun that rival professional photography, perfect for any occasion and purpose.",
-    "effortlessly_fun": "Effortlessly Fun",
-    "effortlessly_fun_description": "Enjoy a seamless and enjoyable process, from capturing to receiving your headshots. It’s as fun as it is professional.",
-    "superhero": "Superhero",
-    "witch": "Witch",
-    "clay": "Clay"
+  "BentoGrid": {
+    "customizable_prompts": "Customizable challenges",
+    "secure_by_design": "Secure by design",
+    "secure_by_design_description": "Your progress and data are protected with secure technology so you can focus solely on learning.",
+    "usually_in_10_seconds": "Results in seconds",
+    "lightning_fast_results": "Lightning-fast resolution",
+    "lightning_fast_results_description": "Get solutions to complex exercises in under 10 seconds thanks to automated logic.",
+    "professional_quality": "Professional level",
+    "professional_quality_description": "The skills you acquire on TruePowers.org rival those of a professional programmer—all from your phone.",
+    "effortlessly_fun": "Fun learning",
+    "effortlessly_fun_description": "The process is as entertaining as it is transformative. You'll solve real challenges without realizing you're programming.",
+    "superhero": "Logic genius",
+    "witch": "Rule wizard",
+    "clay": "Mental crafter"
   },
   "NavBar": {
     "dashboard": "Dashboard",
@@ -175,94 +175,94 @@
     "generator-styles": "Styles",
     "pricing": "Pricing"
   },
-  "HeadshotStylePage": {
-    "label": "HeadShots.fun Styles",
-    "title": "Versatile Headshot Styles for Any Occasion",
-    "subtitle": "Discover our diverse collection of AI-generated headshot styles. Quick, easy, and personalized just for you!",
-    "headshot": {
-      "alt": "AI Headshot: {{name}}",
-      "hot": "HOT",
-      "new": "NEW"
-    }
+"HeadshotStylePage": {
+  "label": "TruePowers.org Styles",
+  "title": "Logic challenges for every curious mind",
+  "subtitle": "Explore our collection of challenges—from extreme sudokus to intelligent planners. Fast, easy, and designed to expand your mental power.",
+  "headshot": {
+    "alt": "AI-generated logic challenge: {name}",
+    "hot": "POPULAR",
+    "new": "NEW"
+  }
+},
+"PricingPage": {
+  "metadata": {
+    "title": "Pricing – {siteTitle}",
+    "description": "Explore our logical training prices with TruePowers.org."
   },
-  "PricingPage": {
-    "metadata": {
-      "title": "Pricing – {siteTitle}",
-      "description": "Explore our headshot pricing."
+  "label": "Pricing",
+  "title": "Simple and accessible pricing",
+  "subtitle": "Choose the plan that fits your learning pace. No hidden fees, no surprises.",
+  "trial_section_description": "Enjoy a 7-day risk-free trial. If you don’t use your credits, we’ll refund your money.",
+  "1_credit_1_headshot": "1 Credit = 1 Advanced Exercise",
+  "processing": "Processing...",
+  "purchase": "Purchase",
+  "most_popular": "Most popular",
+  "package": "Package",
+  "price": "Price",
+  "price_per": "Price per",
+  "credits": "Credits",
+  "plans": {
+    "1": {
+      "description": "Logic Starter: Your first step toward computational thinking",
+      "features": "1000 Credits"
     },
-    "label": "Pricing",
-    "title": "Simple, Transparent Pricing",
-    "subtitle": "Choose the perfect plan for your needs. No hidden fees, no surprises.",
-    "trial_section_description": "Enjoy a 7-day risk-free trial on all plans. Full refund if no credits used.",
-    "1_credit_1_headshot": "1 Credit = 1 Headshot",
-    "processing": "Processing...",
-    "purchase": "Purchase",
-    "most_popular": "Most Popular",
-    "package": "Package",
-    "price": "Price",
-    "price_per": "Price per",
-    "credits": "Credits",
-    "plans": {
-      "1": {
-        "description": "Selfie Starter: Your first step into AI glamour",
-        "features": "2 Credits"
-      },
-      "2": {
-        "description": "Casual Charmer: Spice up your social media game",
-        "features": "10 Credits"
-      },
-      "3": {
-        "description": "Snapshot Superstar: Unleash your inner model",
-        "features": "25 Credits"
-      },
-      "4": {
-        "description": "Portrait Pro: Elevate your online presence",
-        "features": "50 Credits"
-      },
-      "5": {
-        "description": "Team Transformer: Make your whole squad shine",
-        "features": "100 Credits"
-      },
-      "6": {
-        "description": "Headshot Heaven: Enjoy unlimited fun",
-        "features": "200 Credits"
-      }
+    "2": {
+      "description": "Casual Challenger: Perfect for learning on the subway or during a break",
+      "features": "10000 Credits"
+    },
+    "3": {
+      "description": "Intensive Training: Master complex puzzles and planners",
+      "features": "100000 Credits"
+    },
+    "4": {
+      "description": "Pro Level: Get ready to build real automated solutions",
+      "features": "500000 Credits"
+    },
+    "5": {
+      "description": "Mentor Pack: Train while helping others in the community",
+      "features": "1000000 Credits"
+    },
+    "6": {
+      "description": "Infinite Mode: Explore, learn, and share without limits",
+      "features": "2000000 Credits"
     }
-  },
-  "PricingPageFAQ": {
-    "title": "Frequently Asked Questions",
-    "label": "Pricing",
-    "subtitle": "Frequently asked questions about our pricing.",
-    "qa": [
-      [
-        "What is HeadShots.fun?",
-        "HeadShots.fun is an AI-powered platform that allows you to create unique and stunning headshots quickly and easily, personalized for every occasion."
-      ],
-      [
-        "How does the credit system work?",
-        "1 Credit = 1 Headshot. We offer various credit packages to suit different needs. You can purchase credits that can be used to generate AI headshots. The more credits you buy, the better value you get."
-      ],
-      [
-        "What's the pricing for credit packages?",
-        "Our pricing starts at $2.99, perfect for trying out our service. We also offer larger packages, with our most popular choice being $19.9 Plan Snapshot Superstar, ideal for regular users."
-      ],
-      [
-        "Are there any features to help customize my headshots?",
-        "Yes! We offer AI-powered tools designed to make every headshot uniquely yours. You can explore various features to unleash your creativity and personalize your headshots for different occasions."
-      ],
-      [
-        "How fast is the AI technology used for generating headshots?",
-        "We use the fastest AI technology available to ensure quick and efficient headshot generation, typically in 10 seconds. Our goal is to provide you with stunning results in the shortest time possible."
-      ],
-      [
-        "What kind of photos should I upload to the platform?",
-        "We recommend that you upload multiple front-facing photos to ensure that your profile picture is as accurate as possible. These photos should show a clear/unobstructed view of your face. Please make sure your photos are clear, high-quality, and do not include other people or animals."
-      ],
-      [
-        "Can I use the same photo for multiple headshots?",
-        "Yes, you can use the same photo for multiple headshots. Our AI technology allows for multiple outputs from a single photo, so you can create different looks and styles with the same image."
-      ]
+  }
+},
+"PricingPageFAQ": {
+  "title": "Frequently Asked Questions",
+  "label": "Pricing",
+  "subtitle": "Common questions about our platform and credit system.",
+  "qa": [
+    [
+      "What is TruePowers.org?",
+      "TruePowers.org is an educational platform that teaches you to program without programming. Learn computational logic from your phone by solving challenges like giant sudokus, logic puzzles, intelligent planners, and more."
+    ],
+    [
+      "How does the credit system work?",
+      "1 Credit = 1 Advanced Exercise. By purchasing credits, you unlock access to practical exercises on the platform. With just €1, you get enough credits to complete the entire course."
+    ],
+    [
+      "What are the prices for credit packages?",
+      "We offer plans starting at €1, accessible to anyone in the world. The more credits you purchase, the more exercises you can practice. There are packages for all levels—from beginner to mentor."
+    ],
+    [
+      "Can I customize the challenges I want to solve?",
+      "Absolutely! You can choose from a wide variety of challenges: classic, hyper, and Samurai sudokus, complex puzzles, and intelligent planners. You can tailor the experience to your interests."
+    ],
+    [
+      "How fast is the technology used to solve exercises?",
+      "TruePowers.org uses optimized computational logic to give you results in seconds. Just enter your rules and click 'Run'. The system does the rest—faster than many programmers!"
+    ],
+    [
+      "Do I need previous programming experience?",
+      "No. TruePowers.org is designed for absolute beginners. Everything is guided step by step, with explanatory videos and a support community on exercism.org and dev.to."
+    ],
+    [
+      "Can I repeat the same exercise multiple times?",
+      "Yes. You can practice the same challenge with different approaches, learn from your mistakes, and improve your logical thinking. Each run strengthens your understanding."
     ]
+  ]
   },
   "BlogPage": {
     "blog": "Blog",
