@@ -65,7 +65,7 @@ npm run dev
 
 ## Tech Stack
 
-TruePowers.org is built on top of [next-saas-stripe-starter](https://github.com/mickasmt/next-saas-stripe-starter), an MIT-licensed starter for modern SaaS projects.
+TruePowers.org is built on top of [next-saas-stripe-starter](https://github.com/mickasmt/next-saas-stripe-starter), an MIT-licensed starter for modern SaaS projects and [HeadShots.fun](https://github.com/UllrAI/HeadShots.fun) with license [AGPL 3.0].
 
 ### Frameworks & Libraries
 - **Next.js** – React framework for scalable apps
