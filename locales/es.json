@@ -148,12 +148,12 @@
 },
 "CTA": {
   "title": "¡Activa tu superpoder lógico!",
-  "description": "¿Cansado de pasar el tiempo en el móvil sin aprender nada útil? Con TruePowers.org puedes transformar tu mente, resolver retos como un genio y acercarte a la libertad financiera. Todo con solo unos clics.",
+  "description": "¿Cansado de perder tiempo en el móvil sin aprender nada útil? Con TruePowers.org puedes entrenar tu mente, resolver desafíos de nivel genio y acercarte a la libertad financiera, todo con solo unos clics.",
   "button": "Empezar",
   "cool_button": "¡Empieza tu entrenamiento mental ahora!",
   "cool_title": "Aprende a programar sin programar desde tu móvil",
-   "shoot_started_successfully_1_credit_used": "Ejercicio iniciado con éxito. 1 crédito utilizado.",
-  "cool_description": "Experimenta TruePowers.org. Resuelve problemas complejos con reglas simples y sorpréndete de lo que eres capaz de lograr.",
+  "shoot_started_successfully_1_credit_used": "Ejercicio iniciado con éxito. 1 crédito utilizado.",
+  "cool_description": "Experimenta TruePowers.org. Resuelve problemas complejos con reglas simples y sorpréndete de lo que eres capaz.",
   "select_exercise": "Elige un ejercicio",
   "instructions": "Instrucciones",
   "knowledge_base": "Base de conocimiento",
@@ -161,7 +161,41 @@
   "result": "Resultado",
   "solution": "Solución",
   "show_solution": "Mostrar solución",
-  "credits": "Créditos"
+  "credits": "Créditos",
+  "motivational_phrases": [
+    "Tómate unos segundos y respira.",
+    "Ya lo tienes todo.",
+    "Eres completo y perfecto.",
+    "Respira, la felicidad es tuya.",
+    "Respira, eres luz.",
+    "El amor es lo que eres.",
+    "Todo está perfecto ahora.",
+    "Estás profundamente sostenido.",
+    "La paz está dentro de ti.",
+    "El universo te acompaña."
+  ],
+  "running": "⏳ Ejecutando...",
+  "error_prefix": "⚠️ Error:",
+  "timeout": "⏱️ Tiempo de espera alcanzado. Intenta de nuevo.",
+  "empty_output": "(salida vacía)",
+  "exercises": {
+    "1": {
+      "label": "🧩 1: Abuelo",
+      "instructions": "Descubre quién es el abuelo de Luis.",
+      "facts": "padre(juan, maria).\npadre(juan, pedro).\npadre(pedro, luis).\nabuelo(X, Y) :- padre(X, Z), padre(Z, Y).",
+      "query": "abuelo(X, luis).",
+      "solution": "X = juan.",
+      "video": "https://www.youtube.com/embed/RSv9aSsg2wc?start=1405"
+    },
+    "2": {
+      "label": "🧩 2: Natural",
+      "instructions": "Completa el código para definir los números naturales de forma recursiva.",
+      "facts": "natural(1).\nnatural(N):-   natural(   ).",
+      "query": "natural(5).",
+      "solution": "natural(1).\nnatural(N):- N > 1, N2 is N-1, natural(N2).",
+      "video": "https://www.youtube.com/embed/RSv9aSsg2wc?start=129"
+    }
+  }
 },
 "BentoGrid": {
   "customizable_prompts": "Retos personalizables",
