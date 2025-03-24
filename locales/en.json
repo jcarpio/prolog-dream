@@ -377,6 +377,9 @@
   "our_privacy_policy": "Our privacy policy",
   "if_you_have_any_questions_about_the_photos": "If you have questions about your data privacy, check out:"
 },
+"CTA": {
+   "shoot_started_successfully_1_credit_used": "Exercise started successfully. 1 credit used."
+},
 "Credits": {
   "credits": "Credits",
   "your_current_balance": "Your current balance",
