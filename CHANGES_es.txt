@@ -1,5 +1,6 @@
 CHANGES_es.txt
 
+24/03/2025
 - Eliminadas columnas 'Type' y 'Exercises' del dashboard principal. 24/03/2025 15:49
 - Añadido selector de idioma al dashboard. 24/03/2025 15:40
 - Reducido intervalo de mensajes motivacionales en CTA a 10 segundos. 24/03/2025 15:30
@@ -134,3 +135,99 @@ CHANGES_es.txt
 - Refactorizada funcionalidad de ejecución de ejercicios desde /dashboard/studio/[id]/run. 24/03/2025 06:40
 - Establecida integración con backend externo de Prolog. 24/03/2025 06:35
 - Mensajes de resultado dinámicos con frases motivacionales. 24/03/2025 06:30
+-	Componente CTA actualizado con detección de sesión activa. 24/03/2025 06:29
+-	Mensaje de créditos disponible solo si el usuario ha iniciado sesión. 24/03/2025 06:28
+-	Componente CTA actualizado para gestionar sesiones con NextAuth. 24/03/2025 06:26
+-	Añadido control de redirección a login si no hay sesión activa en CTA. 24/03/2025 06:25
+-	Lógica de timeout para ejecuciones prolongadas en CTA. 24/03/2025 06:23
+-	Añadido AbortController para cancelar peticiones Prolog. 24/03/2025 06:22
+-	Mostrar errores de red en CTA en caso de fallo de red o backend. 24/03/2025 06:21
+-	Interfaz de ejecución de Prolog integrada con backend remoto. 24/03/2025 06:20
+-	Preparado JSON con facts y query para el endpoint de ejecución. 24/03/2025 06:18
+-	URL del backend de Prolog integrada correctamente en fetch. 24/03/2025 06:17
+-	Petición POST al backend de ejecución conectada a CTA. 24/03/2025 06:15
+-	Lógica de actualización de créditos al ejecutar ejercicios. 24/03/2025 06:12
+-	Método spendCredits conectado al backend tras ejecución. 24/03/2025 06:10
+-	Control de créditos disponible/insuficientes al iniciar ejecución. 24/03/2025 06:09
+-	Función getUserCredits importada y utilizada en CTA. 24/03/2025 06:08
+-	Créditos mostrados junto al botón Run en CTA. 24/03/2025 06:07
+-	Botón para ver solución implementado con lógica condicional. 24/03/2025 06:06
+-	Sección de solución añadida en la UI de CTA. 24/03/2025 06:04
+-	Nueva lógica para mostrar solución basada en facts y query actuales. 24/03/2025 06:03
+-	Añadido selector de ejercicios con etiquetas personalizadas. 24/03/2025 06:01
+-	Muestra de video explicativo del ejercicio actual en CTA. 24/03/2025 06:00
+-	Estilo responsivo de iframe para videos en CTA. 24/03/2025 05:59
+-	Carga inicial del primer ejercicio desde array de ejercicios. 24/03/2025 05:57
+-	Separación de ejercicios en objeto con id, facts, query, video, solución. 24/03/2025 05:56
+-	Lógica de actualización del estado según ejercicio seleccionado. 24/03/2025 05:55
+-	Componente CTA ahora permite cambiar dinámicamente de ejercicio. 24/03/2025 05:54
+-	Control de estados para facts, query, output, solution en CTA. 24/03/2025 05:53
+-	Preparado layout de tarjeta con Card y MaxWidthWrapper. 24/03/2025 05:52
+-	Migrado componente CTA a diseño basado en Card de UI. 24/03/2025 05:51
+-	Estilos visuales iniciales aplicados a interfaz de ejercicio lógico. 24/03/2025 05:50
+-	Campo de texto para la base de conocimiento (facts) añadido. 24/03/2025 05:48
+-	Campo de texto para consulta (query) añadido. 24/03/2025 05:47
+-	Campo de resultado renderizado como área de código. 24/03/2025 05:46
+-	Botón de ejecución de lógica Prolog implementado. 24/03/2025 05:45
+-	Sección de instrucciones de ejercicio incluida. 24/03/2025 05:44
+-	Estructura general del componente CTA creada. 24/03/2025 05:42
+-	Archivo CTA.tsx creado e importado desde vista /run. 24/03/2025 05:40
+-	Preparada carpeta de secciones y componentes para lógica de ejercicios. 24/03/2025 05:39
+-	Primera integración con API pública de Prolog. 24/03/2025 05:35
+-	Estructura de créditos conectada a cada ejecución. 24/03/2025 05:30
+-	Uso de spendCredits() en lógica de ejecución. 24/03/2025 05:25
+-	Recuperación de saldo de usuario con getUserCredits(). 24/03/2025 05:20
+-	Aviso de créditos insuficientes con redirección. 24/03/2025 05:15
+-	Carga inicial del saldo al entrar en CTA. 24/03/2025 05:10
+-	Estilado personalizado para área de resultado. 24/03/2025 05:05
+-	Añadida área para mostrar salida del programa. 24/03/2025 05:00
+-	Nueva sección para mostrar consultas Prolog. 24/03/2025 04:55
+-	Lógica para mostrar solución cuando el usuario lo desee. 24/03/2025 04:50
+-	Selector de ejercicio implementado como dropdown. 24/03/2025 04:45
+-	Añadida previsualización de vídeo dentro del ejercicio. 24/03/2025 04:40
+-	Refactor del componente CTA como componente dinámico. 24/03/2025 04:35
+-	Conectada sección de entrenamiento desde homepage. 24/03/2025 04:30
+-	Primer selector de ejercicios con datos estáticos. 24/03/2025 04:25
+-	Funcionalidad de mostrar instrucciones por ejercicio. 24/03/2025 04:20
+-	Añadido botón de ver solución con mensaje inicial. 24/03/2025 04:15
+-	Primer renderizado de datos estáticos tipo facts/query. 24/03/2025 04:10
+-	Pruebas locales con backend en /run. 24/03/2025 04:05
+-	Reorganización de secciones dentro del componente CTA. 24/03/2025 04:00
+-	Separación visual clara entre base de conocimiento y consulta. 24/03/2025 03:55
+-	Inicio del componente CTA con estructura funcional. 24/03/2025 03:50
+-	Card visual y layout adaptado a mobile-first. 24/03/2025 03:45
+-	Preparación de MaxWidthWrapper como contenedor. 24/03/2025 03:40
+-	Primer diseño de estructura lógica para ejercicios. 24/03/2025 03:35
+-	Implementado encabezado motivacional en el Card. 24/03/2025 03:30
+-	Estructura base del componente Prolog CTA montada. 24/03/2025 03:25
+
+23/03/2025
+-	Página principal convertida en ruta protegida dentro de /dashboard. 23/03/2025 23:55
+-	Rediseño completo de la interfaz CTA con integración de ejercicios dinámicos. 23/03/2025 23:50
+-	Refactor de ShootModal para usar verificación de créditos reutilizable. 23/03/2025 23:40
+-	Implementado selector de ejercicios con facts y query prellenados. 23/03/2025 23:20
+-	Insertado código Prolog de ejemplo en textarea al seleccionar ejercicio. 23/03/2025 23:15
+-	Integración del componente CTA con el sistema de créditos. 23/03/2025 23:10
+-	Detección de sesión activa antes de ejecutar ejercicios. 23/03/2025 23:05
+-	Mensaje de timeout si la consulta excede 15 segundos. 23/03/2025 22:50
+-	Animación de frases motivacionales mientras se ejecuta una consulta. 23/03/2025 22:45
+-	Agregado botón “Mostrar solución” para cada ejercicio. 23/03/2025 22:30
+-	Reestructuración del backend para mejor formato de variables. 23/03/2025 22:20
+-	Control de errores en backend cuando la consulta falla. 23/03/2025 22:10
+-	Preparado backend para compatibilidad con múltiples variables en la salida. 23/03/2025 21:55
+-	Validación de consulta vacía y respuesta predeterminada. 23/03/2025 21:50
+-	Manejo de casos sin solución con false. en el backend. 23/03/2025 21:45
+-	Añadida limpieza de archivos temporales en backend después de ejecución. 23/03/2025 21:35
+-	Adaptado backend para Prolog con term_variables y mejor salida. 23/03/2025 21:30
+-	Mejoras visuales en resultados de ejecución Prolog (color y altura). 23/03/2025 21:15
+-	Añadido AbortController y timeout al fetch en frontend. 23/03/2025 21:05
+-	Verificación de créditos y redirección a pricing si es necesario. 23/03/2025 20:50
+-	Redirección a login si el usuario no está autenticado. 23/03/2025 20:40
+-	Preparación de lógica de créditos con getUserCredits y spendCredits. 23/03/2025 20:30
+-	Inicio de implementación de control de créditos en el botón “Empezar”. 23/03/2025 20:20
+-	Primera versión funcional del backend desplegada en Render. 23/03/2025 19:55
+-	Validación de errores multibyte en Prolog corregida. 23/03/2025 19:45
+-	Implementada carga condicional de motivación mientras ejecuta. 23/03/2025 19:30
+-	Ajustado layout de la tarjeta Prolog con MaxWidthWrapper. 23/03/2025 19:20
+-	Ejercicio inicial con abuelo/2 como base de ejemplo cargado. 23/03/2025 19:10
+-	Primera integración visual del componente CTA en la home. 23/03/2025 19:00
