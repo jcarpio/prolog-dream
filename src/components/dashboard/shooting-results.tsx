@@ -12,6 +12,9 @@ import { useMediaQuery } from "@/hooks/use-media-query";
 import { Drawer } from "vaul";
 import { BorderBeam } from "@/components/ui/border-beam";
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";  // Importar useRouter
+
+const router = useRouter();  // Inicializar el router
 
 interface Prediction {
     id: string;
@@ -240,16 +243,22 @@ export function ShootingResults({ predictions: initialPredictions, studioId, onS
                     </CardContent>
                 </Card>
             ) : (
-                <EmptyPlaceholder className="min-h-[80vh]">
-                    <EmptyPlaceholder.Icon name="photo" />
-                    <EmptyPlaceholder.Title>{t("ready_to_shoot")}</EmptyPlaceholder.Title>
-                    <EmptyPlaceholder.Description>
-                        {t("your_studio_created_successfully")}
-                        <br />
-                        {t("click_shoot_below_to_begin_creating_your_first_headshot")}
-                    </EmptyPlaceholder.Description>
-                    <ShootModal studioId={studioId} onShootComplete={onShootComplete} />
-                </EmptyPlaceholder>
+                  <EmptyPlaceholder className="min-h-[80vh]">
+                        <EmptyPlaceholder.Icon name="photo" />
+                        <EmptyPlaceholder.Title>{t("ready_to_practice")}</EmptyPlaceholder.Title>
+                        <EmptyPlaceholder.Description>
+                            {t("your_course_created_successfully")}
+                            <br />
+                            {t("click_run_below_to_start_your_first_exercise")}
+                        </EmptyPlaceholder.Description>
+                        <Button 
+                            onClick={() => router.push(`/dashboard/studio/${studioId}/run`)} 
+                            variant="default"
+                        >
+                            <Camera className="mr-2 size-4" />
+                            {t("run")}
+                        </Button>
+                    </EmptyPlaceholder>
             )}
             <div className="my-2 flex w-full items-center space-x-2">
                 <Info className="hidden size-3 text-muted-foreground md:block" />
