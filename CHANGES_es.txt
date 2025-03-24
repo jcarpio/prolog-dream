@@ -1,0 +1,36 @@
+CHANGES_es.txt
+
+- Eliminadas columnas 'Type' y 'Exercises' del dashboard principal. 24/03/2025 15:49
+- Añadido selector de idioma al dashboard. 24/03/2025 15:40
+- Reducido intervalo de mensajes motivacionales en CTA a 10 segundos. 24/03/2025 15:30
+- Adaptado componente CTA para usar traducciones multilingües. 24/03/2025 15:10
+- Traducido fichero de mensajes del componente CTA. 24/03/2025 15:00
+- Añadido soporte multilingüe para frases motivacionales y ejercicios en CTA. 24/03/2025 14:55
+- Agregado campo 'instructions' para ejercicios en CTA. 24/03/2025 14:40
+- Ruta /dashboard/studio/[id]/run abre entorno de ejercicios a pantalla completa. 24/03/2025 13:50
+- Creación de cursos sin necesidad de subir imágenes. 24/03/2025 13:20
+- Adaptado endpoint /api/studio/create para no requerir imágenes. 24/03/2025 13:25
+- Conectado botón desde el dashboard para abrir vista 'run'. 24/03/2025 13:45
+- Añadida lógica de descuentos de créditos y registro de intentos en 'run'. 24/03/2025 13:55
+- Corregido import de prisma ('db' no existe, se usa 'prisma'). 24/03/2025 12:50
+- Corregida ruta de importación de componente CTA en página 'run'. 24/03/2025 12:30
+- Sistema multilingüe implementado en CTA. 24/03/2025 12:25
+- Soporte multilingüe para frases motivacionales. 24/03/2025 12:20
+- Traducción de mensajes de ejecución y errores en CTA. 24/03/2025 12:15
+- Mensajes de solución y resultado traducidos en CTA. 24/03/2025 12:10
+- Instrucciones por ejercicio integradas con multi-idioma. 24/03/2025 12:05
+- Ejercicios definidos como objetos traducibles. 24/03/2025 12:00
+- Mensajes de crédito actualizados con traducción. 24/03/2025 11:55
+- Traducción completa de textos fijos de CTA. 24/03/2025 11:50
+- Adaptación de CTA a layout responsive en modo pantalla completa. 24/03/2025 11:45
+- Video explicativo de ejercicio integrado. 24/03/2025 11:40
+- Página /dashboard/studio/[id]/run creada. 24/03/2025 11:30
+- Botón Run vinculado con gasto de crédito y logging. 24/03/2025 11:25
+- Vista Run conectada a estudios del usuario. 24/03/2025 11:20
+- CTA adaptado para ejecución desde cursos. 24/03/2025 11:15
+- Eliminada carga de imágenes en creación de cursos. 24/03/2025 11:10
+- Creación de cursos ahora solo requiere nombre y tipo. 24/03/2025 11:05
+- Validación ajustada para no requerir imágenes. 24/03/2025 11:00
+- Actualizado endpoint POST /api/studio/create. 24/03/2025 10:55
+- Mensajes de éxito/error de creación de curso actualizados. 24/03/2025 10:50
+- Diseño de formulario simplificado para crear cursos. 24/03/2025 10:45
