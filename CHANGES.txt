@@ -1,0 +1,36 @@
+CHANGES.txt
+
+- Removed 'Type' and 'Exercises' columns from main dashboard. 24/03/2025 15:49
+- Added language selector to the dashboard. 24/03/2025 15:40
+- Reduced motivational message interval in CTA to 10 seconds. 24/03/2025 15:30
+- Adapted CTA component to use multilingual translations. 24/03/2025 15:10
+- Translated message file for CTA component. 24/03/2025 15:00
+- Added multilingual support for motivational phrases and exercises in CTA. 24/03/2025 14:55
+- Added 'instructions' field for exercises in CTA. 24/03/2025 14:40
+- Route /dashboard/studio/[id]/run opens full-screen exercise environment. 24/03/2025 13:50
+- Course creation without the need to upload images. 24/03/2025 13:20
+- Adapted /api/studio/create endpoint to not require images. 24/03/2025 13:25
+- Connected dashboard button to open 'run' view. 24/03/2025 13:45
+- Added logic for credit deduction and attempt logging in 'run'. 24/03/2025 13:55
+- Fixed prisma import ('db' does not exist, used 'prisma' instead). 24/03/2025 12:50
+- Fixed CTA import path on 'run' page. 24/03/2025 12:30
+- Multilingual system implemented in CTA. 24/03/2025 12:25
+- Multilingual support for motivational phrases. 24/03/2025 12:20
+- Translation of execution and error messages in CTA. 24/03/2025 12:15
+- Solution and result messages translated in CTA. 24/03/2025 12:10
+- Instructions per exercise integrated with multi-language. 24/03/2025 12:05
+- Exercises defined as translatable objects. 24/03/2025 12:00
+- Credit messages updated with translations. 24/03/2025 11:55
+- Full translation of fixed CTA texts. 24/03/2025 11:50
+- CTA adapted to responsive layout in full screen mode. 24/03/2025 11:45
+- Exercise explanation video integrated. 24/03/2025 11:40
+- /dashboard/studio/[id]/run page created. 24/03/2025 11:30
+- Run button connected with credit spending and logging. 24/03/2025 11:25
+- Run view connected to user courses. 24/03/2025 11:20
+- CTA adapted for execution from courses. 24/03/2025 11:15
+- Image upload removed from course creation. 24/03/2025 11:10
+- Course creation now only requires name and type. 24/03/2025 11:05
+- Validation adjusted to not require images. 24/03/2025 11:00
+- Updated POST /api/studio/create endpoint. 24/03/2025 10:55
+- Course creation success/error messages updated. 24/03/2025 10:50
+- Simplified course creation form layout. 24/03/2025 10:45
