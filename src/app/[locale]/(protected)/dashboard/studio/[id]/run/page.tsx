@@ -2,7 +2,7 @@ import { DashboardHeader } from "@/components/dashboard/header";
 import { Separator } from "@/components/ui/separator";
 import CTA from "@/components/sections/CTA";
 import { auth } from "@/auth";
-import { db } from "@/lib/db";
+import { prisma } from "@/lib/db";
 import { redirect } from "next/navigation";
 
 interface RunPageProps {
@@ -17,7 +17,7 @@ export default async function RunPage({ params }: RunPageProps) {
     return redirect("/login");
   }
 
-  const studio = await db.studio.findUnique({
+  const studio = await prisma.studio.findUnique({
     where: {
       id: params.id,
       userId: session.user.id,
