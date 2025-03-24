@@ -36,6 +36,11 @@ TruePowers.org es una plataforma educativa diseñada para enseñarte a **program
 - 📱 Interfaz responsive perfecta para cualquier dispositivo
 - 🌐 Soporte multilingüe
 
+  ## Conversaciones con ChatGTP
+- [Conversaciones 1](https://chatgpt.com/share/67e1641b-bbc0-8005-a6f2-d0715a182736)
+- [Conversaciones 2](https://chatgpt.com/share/67e1639a-02e0-8005-a73e-d718b745e6c1)
+
+
 ## Despliegue con Vercel
 
 [![Desplegar con Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjcarpio%2Fprolog-dream)
