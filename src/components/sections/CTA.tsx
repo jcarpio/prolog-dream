@@ -57,7 +57,7 @@ export default function CTA() {
         const phrases = t.raw("motivational_phrases") as string[];
         const random = Math.floor(Math.random() * phrases.length);
         setOutput(`${t("running")}\n${phrases[random]}`);
-      }, 2000);
+      }, 10000);
       return () => clearInterval(interval);
     }
   }, [output, t]);
